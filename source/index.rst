@@ -18,6 +18,7 @@ Select one of the headings to get started!
 .. toctree::
    :maxdepth: 4
 
+   beginner 
    artyfx
    fabla2
    sorcer 

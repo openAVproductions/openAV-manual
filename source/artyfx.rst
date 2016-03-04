@@ -18,6 +18,7 @@ ____
 
 .. image:: img/artyfx/artyfx_bitta.*
   :align: right
+
 Bitta
 =======
 
@@ -33,6 +34,7 @@ ____
 
 .. image:: img/artyfx/artyfx_della.*
   :align: left
+
 Della
 =======
 
@@ -53,6 +55,7 @@ ____
 
 .. image:: img/artyfx/artyfx_ducka.*
   :align: right
+
 Ducka
 =======
 Ducka is a side- chain envelope plugin: it is very useful for creating
@@ -74,6 +77,7 @@ ____
 
 .. image:: img/artyfx/artyfx_driva.*
   :align: left
+
 Driva
 =======
 
@@ -91,6 +95,7 @@ ____
 
 .. image:: img/artyfx/artyfx_filta.*
   :align: right
+
 Filta
 =======
 Filta is a lowpass and highpass filter combination. Useful to remove
@@ -104,6 +109,7 @@ ____
 
 .. image:: img/artyfx/artyfx_kuiza.*
   :align: left
+
 Kuiza
 =======
 Kuiza is a 4 band equalizer. Its perfect for creatively shaping the sound
@@ -121,6 +127,7 @@ ____
 
 .. image:: img/artyfx/artyfx_masha.*
   :align: right
+
 Masha
 =======
 Masha is a beat grinder plugin: it records a segment of audio and plays it
@@ -141,6 +148,7 @@ ____
 
 .. image:: img/artyfx/artyfx_panda.*
   :align: left
+
 Panda
 =======
 Panda is a compressor expander combo, with attack and release controls.
@@ -155,6 +163,7 @@ ____
 
 .. image:: img/artyfx/artyfx_roomy.*
   :align: right
+
 Roomy
 =======
 Roomy is a spacious and smooth reverb.
@@ -171,6 +180,7 @@ ____
 
 .. image:: img/artyfx/artyfx_satma.*
   :align: left
+
 Satma
 =======
 Satma is a crazy distortion plugin. Useful to excite and get gritty, dirty
@@ -187,6 +197,7 @@ ____
 
 .. image:: img/artyfx/artyfx_vihda.*
   :align: right
+
 Vihda
 =======
 Vihda is a stereo-enhancer, using a mid-side matrix.
@@ -197,6 +208,3 @@ Vihda is a stereo-enhancer, using a mid-side matrix.
 * The Invert button inverts the right channel, which can cause a perceptual
   wider mix due to how the brain interprets audio. Try it and see if it
   sounds good.
-
-____
-

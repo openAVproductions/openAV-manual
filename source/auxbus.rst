@@ -1,3 +1,5 @@
+.. _auxbus:
+
 ########
 AuxBus
 ########
@@ -36,7 +38,8 @@ For example, Ducka from ArtyFX changes the volume of the content signal,
 based on the amplitude of the key signal. This is called side-chain
 eveloping.
 
-..  note::
+.. note::
+
 	Quite often you'll hear the term "sidechain" and
 	"sidechain-compression" mixed up. Although not strictly the same as
 	using an envelope to change the volume, the audible effect is

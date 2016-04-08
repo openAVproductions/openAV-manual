@@ -67,7 +67,6 @@ the basics are introduced - loading single samples, and levelling the
 volume. The following sections show how to set up multi-layer samples,
 use the FX sends, and show examples.
 
-____
 
 Building a Basic Kit
 --------------------

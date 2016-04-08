@@ -1,3 +1,6 @@
+
+.. _artyfx:
+
 ########
 ArtyFX
 ########
@@ -18,6 +21,7 @@ ____
 
 .. image:: img/artyfx/artyfx_bitta.*
   :align: right
+.. _bitta:
 
 Bitta
 =======
@@ -34,6 +38,8 @@ ____
 
 .. image:: img/artyfx/artyfx_della.*
   :align: left
+
+.. _della:
 
 Della
 =======
@@ -55,6 +61,8 @@ ____
 
 .. image:: img/artyfx/artyfx_ducka.*
   :align: right
+
+.. _ducka:
 
 Ducka
 =======
@@ -78,6 +86,8 @@ ____
 .. image:: img/artyfx/artyfx_driva.*
   :align: left
 
+.. _driva:
+
 Driva
 =======
 
@@ -96,6 +106,8 @@ ____
 .. image:: img/artyfx/artyfx_filta.*
   :align: right
 
+.. _filta:
+
 Filta
 =======
 Filta is a lowpass and highpass filter combination. Useful to remove
@@ -109,6 +121,8 @@ ____
 
 .. image:: img/artyfx/artyfx_kuiza.*
   :align: left
+
+.. _kuiza:
 
 Kuiza
 =======
@@ -127,6 +141,8 @@ ____
 
 .. image:: img/artyfx/artyfx_masha.*
   :align: right
+
+.. _masha:
 
 Masha
 =======
@@ -149,6 +165,8 @@ ____
 .. image:: img/artyfx/artyfx_panda.*
   :align: left
 
+.. _panda:
+
 Panda
 =======
 Panda is a compressor expander combo, with attack and release controls.
@@ -163,6 +181,8 @@ ____
 
 .. image:: img/artyfx/artyfx_roomy.*
   :align: right
+
+.. _roomy:
 
 Roomy
 =======
@@ -181,6 +201,8 @@ ____
 .. image:: img/artyfx/artyfx_satma.*
   :align: left
 
+.. _satma:
+
 Satma
 =======
 Satma is a crazy distortion plugin. Useful to excite and get gritty, dirty
@@ -197,6 +219,8 @@ ____
 
 .. image:: img/artyfx/artyfx_vihda.*
   :align: right
+
+.. _vihda:
 
 Vihda
 =======

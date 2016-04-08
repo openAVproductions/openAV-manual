@@ -11,7 +11,7 @@ controller. Or if it’s crafty beat programming your after that’s cool too!
 
 The next section introduce the features that Fabla2 has, how to record your
 own drum sounds, create professional-sounding multi-layered kits,
-and use advanced features like :ref:`auxbus`.
+and use advanced features like OpenAV's :ref:`auxbus`.
 
 .. _fabla2_features:
 
@@ -19,15 +19,23 @@ Features
 ==========
 
 Fabla 2.0 has all of the "normal" features you've come to expect of a
-professional software sampler. Some examples are multiple layers, a few
-banks, an ADSR and volume control per sample.
+professional software sampler. Some examples are multi-layer support,
+banks, ADSRs, start and end points, volume controls... but Fabla2 provides
+more than this! With AuxBus sends, per-voice FX and an intuitive interface,
+Fabla2 becomes a live-performance sampler with huge improvements in
+features and workflow compared to a simple sampler like Fabla 1.0.
 
 Internal Effects
 ----------------
+.. note::
+	The internal FX is a work-in-progress feature of Fabla2, and may
+	be disabled in your current version. When testing is complete, it
+	will be enabled by default.
+
 Fabla2 has internal effects that run *per voice*. This means that if one
-audio sample is played twice, the filter will be running twice,
-independantly. This means that although both the samples are the same,
-they will sound different, keeping the listener interested.
+audio sample is played twice, any FX will be running twice, independantly.
+Although the sample data is constant, the sound is different because
+the FX parameters may have changed, keeping the listener interested.
 
 SVF Filter
 ~~~~~~~~~~
@@ -103,6 +111,7 @@ Multi-layered Kits
 How to multi-layer, different sample types (none, round robin, and
 velocity-layers),
 
+.. _fabla2_manipulating_samples:
 
 Manipulating Samples
 ====================

@@ -38,8 +38,8 @@ is usually set to be 100% wet signal, as this allows an instruement to
 remain at a constant volume in the mix while more reverb can be added.
 The :ref:`roomy` reverb from :ref:`artyfx` has the capability to output 100% wet.
 
-.. note::
-	TODO miniLAC: Fabla2 routing of AuxBus image
+.. todo::
+	Fabla2 routing of AuxBus image
 
 The power of the AuxBus feature in Fabla2 is that internally, each sample
 can be routed to every AuxBus a different amount. This means that a snare 
@@ -47,6 +47,9 @@ drum can be sent to a reverb send, while a kick drum in the same kit is
 not. This is a necessary feature to provide good workflow when doing FX
 processing with drum kits, or any sample based instruments.
 
+.. todo::
+	Fabla2 image, turning up reverb send on snare/clap sample, kick
+	drum remains dry. Add audio clip demonstrating this.
 
 Side-Chaining
 -------------

@@ -82,5 +82,6 @@ program, which natively speaks to JACK.
 
 Launching an LV2 Plugin
 =======================
-This section describes how to launch a plugin of choice, and then connect
-it to the speakers. Very simple, lots of screenshots - noobie proof!
+.. todo::
+	This section describes how to launch a plugin of choice, and then
+	connect it to the speakers. Very simple, lots of screenshots.

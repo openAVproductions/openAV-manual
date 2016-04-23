@@ -16,13 +16,14 @@ how to combine them into a coherent whole.
 Select one of the headings to get started!
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 1
 
    beginner 
    artyfx
    fabla2
+   auxbus
+
+.. ignore this
    sorcer 
    luppp
-   auxbus
    programming
-

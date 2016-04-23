@@ -5,16 +5,36 @@
 Beginner Setup
 ###############
 
-This page will introduces the beginner on how to use particular parts of
-OpenAV software, setting up JACK, launching LV2 plugins using Jalv, and
-lots of other common beginner issues.
+This page will introduces the beginner on how to use OpenAV software,
+how to set up JACK, launch LV2 plugins with Jalv, and answers other common
+questions.
 
 .. _lv2_plugin:
 
 LV2 Plugin
 ==========
-Introduce LV2 here, and that OpenAV builds LV2 plugins, which can then be
-easily used in a live context with JACK and JALV.
+
+LV2 Plugins are extensions to any audio application. Each plugin contains
+functionality or features, which is made available when a host-program
+loads the plugin. LV2 is an open-source plugin API, which means it can be
+freely used by everybody - no contracts or prioprietary copyrights here!
+
+OpenAV builds LV2 plugins, as the LV2 plugin spec is very powerful,
+flexible and extensible. This allows complex plugins like samples and
+synths to be created by OpenAV, and easily used in DAWs like Ardour,
+Audacity and many others!
+
+To list all installed plugins on your system, run the following command
+from a terminal ``lv2ls``.  The output is a long list of URI items, which
+identify each plugin that is available on your system. These URIs will be
+used later in the :ref:`launching_a_plugin` section. An example of one URI
+is ``http://www.openavproductions.com/artyfx#roomy``.
+
+To see more (technical) information about an LV2 plugin, we can get the
+information about each plugin using ``lv2info`` and passing that command a
+URI. Example output for :ref:`Roomy` is as follows:
+
+.. literalinclude:: cmdoutput/lv2ls_roomy.txt
 
 .. _jack:
 
@@ -24,6 +44,8 @@ JACK
 JACK is a program that lets you run audio applications, and route audio
 between them. Here at OpenAV we *always* have JACK running when developing
 software - its the back-bone of linux-audio - so get used to it!
+
+.. _starting_jack:
 
 Starting JACK
 -------------
@@ -76,12 +98,22 @@ JALV
 ====
 JALV is a small tool that will load an LV2 plugin, and run it in JACK.
 This is very useful to run an OpenAV plugin as if it was a standalone
-program, which natively speaks to JACK.
+program, which natively speaks to JACK. The :ref:`launching_a_plugin`
+section shows you how to launch plugins using JALV.
 
 .. _launching_a_plugin:
 
 Launching an LV2 Plugin
 =======================
-.. todo::
-	This section describes how to launch a plugin of choice, and then
-	connect it to the speakers. Very simple, lots of screenshots.
+
+This section shows you how to launch a plugin using JACK as the audio
+backend, and Jalv to host LV2 plugins. LV2 plugins are identified by URIs,
+refer to the :ref:`lv2_plugin` section how to list available plugins.
+
+* Start JACK. If you have not started jack before, see the :ref:`starting_jack` section.
+* Launch Roomy in Jalv using the following command: ``jalv.gtk http://www.openavproductions.com/artyfx#roomy``
+* Use :ref:`qjackctl` to connect the ``System:capture`` to ``Roomy:in`` and ``Roomy:out`` to ``System:playback``
+
+That's it! Any sound that gets captured by the soundcard hardware will have
+:ref:`Roomy` effect the signal, and it will be played back over the
+speakers!

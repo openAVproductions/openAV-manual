@@ -21,6 +21,7 @@ Select one of the headings to get started!
    beginner 
    artyfx
    fabla2
+   luppp
    auxbus
 
 .. ignore this

@@ -19,6 +19,10 @@ basslines and harsh pad sounds.
 
 .. _Sorcer page on Github: https://github.com/openAVproductions/openAV-Sorcer/
 
+____
+
+.. image:: img/sorcer/sorcer_osc.png
+   :align: right
 
 Oscillators
 ===========
@@ -66,6 +70,12 @@ any improvements in its playback engine - but fear not - OpenAV has plans
 to release new synths in the future with alias-avoidance and more capable
 modulation than Sorcer ever had!
 
+____
+
+.. image:: img/sorcer/sorcer_lfo_remove.png
+   :align: right
+
+
 Envelopes and Modulation
 ========================
 Sorcer also has some modulation and enveloping features, an LFO can
@@ -93,6 +103,11 @@ filter - useful to muffle the bass sound and leave some space in the mix
 for other instruments. To add more energy to the mix, turn up the
 Modulation dial to change the Cutoff by the LFO output.
 
+____
+
+.. image:: img/sorcer/sorcer_adsr_master.png
+   :align: right
+
 ADSR
 ----
 The ADSR provides the final touches on the sound - the defaults provide a
@@ -103,3 +118,12 @@ Master
 The master section provides a compressor with Gain, Threshold, Attack and
 Release. A master-volume slider allows taming Sorcer to keep it in its
 place in the mix.
+
+Conclusion
+==========
+
+That was a whirlwind fast tour of the Sorcer synth - although its limited
+in its scope, it is a good synth to start using for basslines, and
+understand the way routing inside a synthesizer works. Of course, for a
+heavy dubstep modulated bassline, Sorcer is the easiest way to get that
+super heavy sub-bass too!

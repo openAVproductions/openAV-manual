@@ -27,8 +27,8 @@ Select one of the headings to get started!
    artyfx
    luppp
    sorcer
-   fabla2
-   auxbus
 
 .. ignore this
+   fabla2
+   auxbus
    programming

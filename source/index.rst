@@ -20,11 +20,10 @@ Select one of the headings to get started!
 
    beginner 
    artyfx
-   fabla2
    luppp
+   sorcer
+   fabla2
    auxbus
 
 .. ignore this
-   sorcer 
-   luppp
    programming

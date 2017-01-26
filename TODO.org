@@ -9,3 +9,4 @@ Translation of openAV manual from english to french
 * TODO luppp.rst
 * TODO [#C] programming.rst
 * TODO sorcer.rst
+* TODO README

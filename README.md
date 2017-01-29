@@ -9,7 +9,7 @@ www.openavproductions.com/doc/
 Contributing
 ------------
 
-Intersted in improving the documentation, or adding a paragraph? Cool!
+Interested in improving the documentation, or adding a paragraph? Cool!
 You'll need some basic command-line skills, but its not hard!
 
 ```

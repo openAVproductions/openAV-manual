@@ -187,4 +187,8 @@ to the default controllers list, as shown below. Note that multiple
 controllers can be added, listed as seperate strings with a comma
 inbetween.
 
+The file to edit is:
+``~/.config/openAV/luppp/luppp.prfs``
+in particular, update this line to contain the filename of your default
+controllers:
 ``"defaultControllers":   ["akai_apc.ctlr"],``

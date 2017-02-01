@@ -177,3 +177,14 @@ are quite obvious, so i will only explain them in short:
 * the knob with the number sets the tempo
 * the return knob adjusts the volume of the returned audio (eg reverb)
 * the fader adjusts the master volume
+
+Configuration
+=============
+
+Luppp provides some configuration features in a file under the user's
+config directory. It allows setting default controllers by adding them
+to the default controllers list, as shown below. Note that multiple
+controllers can be added, listed as seperate strings with a comma
+inbetween.
+
+``"defaultControllers":   ["akai_apc.ctlr"],``

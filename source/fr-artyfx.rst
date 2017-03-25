@@ -23,13 +23,12 @@ ____
 Bitta
 =======
 
-Bitta is a bit-crusher plugin. Bit crushing reduces the
-:abbr:`bit-depth(The number of bits used to represent the audio. The
-resolution of the vertical axis of an audio waveform)` of the audio.
-Because it depends on the volume of the incoming signal, be careful when
-setting the "crush" dial.
+Bitta est un greffon de réduction de bits (bit-crusher). 
+L’écrasement de bits réduit la résolution du signal audio. 
+Parce qu'il dépend du volume du signal entrant, 
+soyez prudent quand vous réglez le bouton  ‘Crush’.
 
-* Crush : Changes the number of bits used to rush the audio.
+*Crush : change le nombre de bits utilisé pour l’audio. 
 
 ____
 

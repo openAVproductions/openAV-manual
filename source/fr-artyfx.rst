@@ -50,9 +50,9 @@ Della est un delay se synchronisant sur les BPM, avec des contrôles pour le Ret
   utile pour conserver les délais en arrière-plan d'une piste.
 
 * Temps : modifie la longueur du délai. Veuillez noter que ceci est “quantifié” en multiple du BPM 
-et donc, il “saute” entre une durée de croche, de noire, de blanche, et de ronde. 
-Della prend la valeur de BPM à partir du programme hôte et donc, si vous modifiez le tempo, 
-il restera en synchronisation !
+  et donc, il “saute” entre une durée de croche, de noire, de blanche, et de ronde. 
+  Della prend la valeur de BPM à partir du programme hôte et donc, si vous modifiez le tempo, 
+  il restera en synchronisation !
 
 ____
 
@@ -63,20 +63,19 @@ ____
 
 Ducka
 =======
-Ducka is a side- chain envelope plugin: it is very useful for creating
-"pumping" basslines as often found in minimal house music. The plugin works
-by analysing the volume of a sidechain input, and changing the volume of a
-seperate stereo track, based on the amplitude of the sidechain input.
+ Ducka est un éditeur d'enveloppe avec volume par chaîne latérale:
+ c'est un greffon très utile pour créer des lignes de basse 
+ qui “pompent” comme dans la musique “house minimale”. 
+ Le greffon fonctionne en analysant le volume de l'entrée par chaîne latérale, 
+ et modifie le volume d'un piste stéréo séparée en se bansant sur l'amplitude de l'entrée par chaîne latérale. 
 
-* Threshold sets the level that the input audio must reach before the
-  stereo track gets reduced.
+*Seuil : paramètre le niveau que l'entrée audio doit atteindre pour que la piste stéréo soit réduite.
 
-* The drop controls the amount of volume reduction that is performed.
+* Chute : contrôle la quantité de réduction de volume qui est appliqué.
 
-* Time controls the amount of time it take before the stereo track is faded
-  in again. Note that this control is BPM dependant, and the center is
-  directly on the off- beats. A setting of half (its default) is generally
-  musical :)
+* contrôle la quantité de temps que cela prend avant que la piste stéréo ne soit de nouveau fondue. 
+  Veuillez noter que ce contrôle dépend du BPM, et que le centre est directement sur les pulsations-off. 
+  Un paramètre de la moitié (ce qui est le défaut) est généralement assez musical :)
 
 ____
 
@@ -88,14 +87,13 @@ ____
 Driva
 =======
 
-Driva is a multi-distortion unit capable of the most mean and gritty distortions.
+Driva est un effet de multi-distortion capable des plus moyennes distortions comme des plus granuleuses.
 
-* Tone : Click the Tone button, a list of different distortion models are
-  available. Just click the desired distortion, and keep rocking out.
-  Cancel at the bottom quits the tone-change view.
-
-* Amount just cranks up the gain / distortion quanitity. Use at your own
-  peril!
+* Tonalité : cliquer sur ce bouton permet de choisir un modèle de distorsion parmi une liste. 
+  Choisissez la distortion désirée et éclatez vous.
+  Le bouton “Annuler” en bas de la liste permet de sortir de ce menu sans effectuer de modification.
+  
+* Quantité : ajuste la quantité de gain / distorsion ajoutée. À utiliser à vos propres risques et périls !
 
 
 ____
@@ -107,11 +105,12 @@ ____
 
 Filta
 =======
-Filta is a lowpass and highpass filter combination. Useful to remove
-unwanted high and low frequencies from various recordings or instruments.A
+Filta est une combinaison de filtres passe-bas et passe-haut. 
+Il est utile pour supprimer les fréquences hautes et basses indésirables 
+de nombreux enregistrements et/ou instruments.
 
-* Frequency controls what type of filtering is done, and what frequency.
-  Lower values are lowpass filter, turning up the dial is causes highpass.
+* Frequence contrôle le type de filtrage étant réalisé, et à quelle fréquence il l'est. 
+Les valeurs plus basses forment un filtre passe-bas. Augmenter le bouton en fait un filtre passe-haut.
 
 
 ____
@@ -123,16 +122,16 @@ ____
 
 Kuiza
 =======
-Kuiza is a 4 band equalizer. Its perfect for creatively shaping the sound
-of an instrument or synth. Each of the gain controls changes the amplitude
-at the given frequency. The master gain can be used to reduce or amplify
-the overall volume if needed. The controls (left to right):
+Kuiza est un égaliseur à 4 bandes. Il est parfait pour modeler créativement le son d'un instrument ou d'un synthétiseur. 
+Chacun des contrôles change l'amplitude à la fréquence donnée. 
+Le gain général peut être utilsé pour réduire ou augmenter 
+le volume général si besoin. Les contrôles (de gauche à droite):
 
-* Low      (   ~55 Hz)
-* Low mid  (  ~220 Hz)
-* High mid ( ~1760 Hz)
-* High     ( ~7040 Hz)
-* Master Gain
+* Basse      (   ~55 Hz)
+* Medium(bas)  (  ~220 Hz)
+* Medium(haut) ( ~1760 Hz)
+* Haut     ( ~7040 Hz)
+* Gain
 
 ____
 
@@ -143,20 +142,20 @@ ____
 
 Masha
 =======
-Masha is a beat grinder plugin: it records a segment of audio and plays it
-back as a loop, causing a "stutter" effect.
+Masha est un broyeur de rythme. Il enregistre un segment d'audio et le joue ensuite comme une boucle, 
+provoquant ainsi un effet de “bégaiement”.
 
-* Volume changes the loudness of the stutter-loop. PassThru allows bleeding
-  the normal signal trough. Time is a BPM dependant control that changes
-  the loop-record and playback length. Gradually reduce this value to get
-  that "standard" DJ stutter effect!
-* This effect has some special functionality, to allow manual control over
-  the BPM. Usually the BPM will be taken from the host program (or JACK
-  transport), but it can now be controlled by a dial.
-* The "HostBPM" button controls the BPM source. When the button is blue,
-  the HostBPM is enabled. Turning the button off makes the manual BPM dial
-  appear. The dial also shows the current BPM.
-
+* Volume modifie la sonie de la boucle de bégaiement. 
+* Pass : (passthru) permet de faire déteindre le signal normal à travers.
+* Temps : contrôle dépendant du BPM. Il modifie l'enregistrement de la boucle et la longueur de sa lecture. 
+  Vous pouvez réduire graduellement cette valeur pour obtenir l'effet “standard” de bégaiement de DJ !
+  
+* Cet effet possède une fonctionnalité spéciale pour permettre un contrôle en fonction du BPM.
+  Habituellement, le BPM sera pris à partir du programme hôte (ou du transport JACK), 
+  mais il peut également être contrôlé avec un bouton rotatif.
+* Le bouton “BPM hôte” contrôle la source du BPM. Lorsque ce bouton est bleu, le BPM de l'hôte est utilisé. 
+  Cliquer sur ce  bouton fait appraître le bouton rotatif de contrôle manuel du BPM. Ce bouton rotatif manuel
+  affiche le BPM  actuel. 
 ____
 
 .. image:: img/artyfx/artyfx_panda.*
@@ -166,13 +165,12 @@ ____
 
 Panda
 =======
-Panda is a compressor expander combo, with attack and release controls.
+Panda est une combinaison d'un compresseur et d'un expandeur combo, avec contôles d'attaque et de relâchement. 
 
-* Threshold: the "turning point" of compression / expansion. Turning down
-  the dial expands the signal, turning it up causes compression.
-* Release changes the time for Panda to fade-out its compression/expansion.
-* Factor controls the amount of compression/expansion performed, the
-  "maximizer" dial.
+* Threshold:Seuil : le point de passage entre la compression et l'expansion. Les valeurs faibles en font un expandeur, 
+  les valeurs hautes un compresseur.
+* Relâche : modifie le temps pour que le greffon fonde en fermeture sa compression/expansion.
+* Facteur : contrôle la quantité de compression/expansion réalisée, aussi connu en tant que bouton de “maximisation”.
 
 ____
 
@@ -183,14 +181,11 @@ ____
 
 Roomy
 =======
-Roomy is a spacious and smooth reverb.
+Roomy est une réverbe spacieuse et douce.
 
-* The Time control changes the length of the reverb tail: higher values
-  give will create a bigger and more spacious mix.
-* Damping controls the high- frequency damping: lower settings gives a
-  spacious open sound, while a high damping feels small and close.
-* The Dry/Wet control changes the amount of reverb signal mixed in: useful
-  for techno and trance "reverb builds"... just crank it right up!
+* Temps : modifie la longueur de la queue de réverbération. Des valeurs élevées créeront un mixage plus large et spacieux.
+*  Étouff. : (étouffement) contrôle l'étouffement des hautes-fréquences : des paramètres bas fournissent un son ouvert et   spatieux, alors que des paramètres hauts sont ressentis petits et proches.
+* Orig. traité : modifie la quantité du signal réverbéré mixé en sortie. Utile pour les effets de “construction de réverbération” de trance et de techno… jouez avec !
 
 
 ____

@@ -69,11 +69,11 @@ Ducka
  Le greffon fonctionne en analysant le volume de l'entrée par chaîne latérale, 
  et modifie le volume d'un piste stéréo séparée en se bansant sur l'amplitude de l'entrée par chaîne latérale. 
 
-*Seuil : paramètre le niveau que l'entrée audio doit atteindre pour que la piste stéréo soit réduite.
+* Seuil : paramètre le niveau que l'entrée audio doit atteindre pour que la piste stéréo soit réduite.
 
 * Chute : contrôle la quantité de réduction de volume qui est appliqué.
 
-* contrôle la quantité de temps que cela prend avant que la piste stéréo ne soit de nouveau fondue. 
+* Temps : contrôle la quantité de temps que cela prend avant que la piste stéréo ne soit de nouveau fondue. 
   Veuillez noter que ce contrôle dépend du BPM, et que le centre est directement sur les pulsations-off. 
   Un paramètre de la moitié (ce qui est le défaut) est généralement assez musical :)
 
@@ -109,7 +109,7 @@ Filta est une combinaison de filtres passe-bas et passe-haut.
 Il est utile pour supprimer les fréquences hautes et basses indésirables 
 de nombreux enregistrements et/ou instruments.
 
-* Frequence contrôle le type de filtrage étant réalisé, et à quelle fréquence il l'est. 
+* Frequence : contrôle le type de filtrage étant réalisé, et à quelle fréquence il l'est. 
 Les valeurs plus basses forment un filtre passe-bas. Augmenter le bouton en fait un filtre passe-haut.
 
 
@@ -167,7 +167,7 @@ Panda
 =======
 Panda est une combinaison d'un compresseur et d'un expandeur combo, avec contôles d'attaque et de relâchement. 
 
-* Threshold:Seuil : le point de passage entre la compression et l'expansion. Les valeurs faibles en font un expandeur, 
+* Threshold : Seuil : le point de passage entre la compression et l'expansion. Les valeurs faibles en font un expandeur, 
   les valeurs hautes un compresseur.
 * Relâche : modifie le temps pour que le greffon fonde en fermeture sa compression/expansion.
 * Facteur : contrôle la quantité de compression/expansion réalisée, aussi connu en tant que bouton de “maximisation”.
@@ -197,13 +197,11 @@ ____
 
 Satma
 =======
-Satma is a crazy distortion plugin. Useful to excite and get gritty, dirty
-audio.
+Satma effet fou de distortion. Très utile pour 'salir l'audio en le rendant granuleux.
 
-* Distortion changes the amount of signal-shaping that occurs: the overall
-  amount of noise production.
-* The Tone control subtly varies between high-frequencies and lower
-  frequencies, or making both equally gritty.
+* Distorsion : modifie la quantité de lise-en-forme du signal qui advient : la quantité général de bruit produite.
+   
+* Tonalité : varie subtilement entre les hautes et les basses fréquences, ou les rend toutes deux granuleuses.
 
 
 
@@ -216,11 +214,8 @@ ____
 
 Vihda
 =======
-Vihda is a stereo-enhancer, using a mid-side matrix.
+Vihda est un réhausseur stéréo, utilisant une matrice “mid-side”. 
 
-* The Width parameter affects the amount of stereo content in the signal.
-  Note that the the mid-side technique only enhances stereo: it does not
-  create it!
-* The Invert button inverts the right channel, which can cause a perceptual
-  wider mix due to how the brain interprets audio. Try it and see if it
-  sounds good.
+* Largeur : affecte la quantité de contenu stéréo dans le signal. 
+Veuillez noter que la technique “mid-side” réhausse uniquement la stéréo, elle ne la crée pas !
+*bouton Inverser : inverse le canal droit ce qui provoque un mix ressenti plus large à cause de la façon dont le cerveau interprète l'audio. Essayez-le et écoutez si ça sonne bien.

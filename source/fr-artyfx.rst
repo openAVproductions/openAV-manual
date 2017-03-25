@@ -8,12 +8,10 @@ ArtyFX
 ArtyFX est une suite d’effets audio, qui peuvent être utilisés de manière autonome 
 mais qui sont aussi conçus pour être insérés dans d’autres applications plus complexes d’ OpenAV 
 comme Fabla2, Sorcer and Luppp. Chaque effet peut être utilisé individuellement comme greffon LV2.
-
 ArtyFX comprend différents greffons – tous les effets classiques  comme les réverbes, delays et filtres sont inclus. 
 Les paragraphes suivants détaillent chaque greffon individuellement, montrant comment ils peuvent être utilisés, 
 et faisant aussi quelques suggestions sur les meilleures utilisation.
-
-Vous avez des suggestions de grefffons pour les ArtyFx ? Contactez OpenAV !
+Vous avez des suggestions de grefffons pour les ArtyFx? Contactez OpenAV !
 
 
 ____
@@ -27,10 +25,11 @@ Bitta
 
 Bitta est un greffon de réduction de bits (bit-crusher). 
 L’écrasement de bits réduit la résolution du signal audio. 
-Parce qu'il dépend du volume du signal entrant, 
-soyez prudent quand vous réglez le bouton  ‘Crush’.
+Veuillez noter que l'écrasement de bit est un traitement qui dépend du volume du signal et donc, 
+vérifiez que vos volumes sont corrects ! Les signaux calmes sont transformés en silence lorsqu'ils sont écrasés. 
 
-*Crush : change le nombre de bits utilisé pour l’audio. 
+* Écrasement : modifie la quantité de bits à laquelle l'audio est réduite. 
+  
 
 ____
 
@@ -42,18 +41,18 @@ ____
 Della
 =======
 
-Della is a BPM adjusting delay, with controls for feedback and delay volume.
+Della est un delay se synchronisant sur les BPM, avec des contrôles pour le Retour et le Volume du delay.
 
-* Feedback controls the amount of the signal fed back into the delay line:
-  turn it up to have that reggae-crazy-dub-echo that goes on forever!
+* Retour : contrôle la quantité de signal qui est réinjecté dans le délai en ligne : 
+  augmentez-le pour obtenir un écho-dub-reggae-foufou qui ne s'arrête jamais !
 
-* Volume changes the amount of the delayed signal you hear: useful to keep
-  the delays in the background of a track.
+* Volume : modifie la quantité du signal délayé que vous entendez : 
+  utile pour conserver les délais en arrière-plan d'une piste.
 
-* Time changes the delay-length: note that this is "quantized" to multiples
-  of the BPM, so it "jumps" between a 1/8th note, 1/4 note, 1/2 note and
-  whole note duration. Della picks up the BPM from the host program: so if
-  you change tempo it will continue to stay in time!
+* Temps : modifie la longueur du délai. Veuillez noter que ceci est “quantifié” en multiple du BPM 
+et donc, il “saute” entre une durée de croche, de noire, de blanche, et de ronde. 
+Della prend la valeur de BPM à partir du programme hôte et donc, si vous modifiez le tempo, 
+il restera en synchronisation !
 
 ____
 

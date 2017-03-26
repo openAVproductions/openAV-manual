@@ -28,7 +28,7 @@ L’écrasement de bits réduit la résolution du signal audio.
 Veuillez noter que l'écrasement de bit est un traitement qui dépend du volume du signal et donc, 
 vérifiez que vos volumes sont corrects ! Les signaux calmes sont transformés en silence lorsqu'ils sont écrasés. 
 
-* Écrasement : modifie la quantité de bits à laquelle l'audio est réduite. 
+* Crush (écrasement) : modifie la quantité de bits à laquelle l'audio est réduite. 
   
 
 ____
@@ -43,13 +43,13 @@ Della
 
 Della est un delay se synchronisant sur les BPM, avec des contrôles pour le Retour et le Volume du delay.
 
-* Retour : contrôle la quantité de signal qui est réinjecté dans le délai en ligne : 
+* Feedback (retour) : contrôle la quantité de signal qui est réinjecté dans le délai en ligne : 
   augmentez-le pour obtenir un écho-dub-reggae-foufou qui ne s'arrête jamais !
 
 * Volume : modifie la quantité du signal délayé que vous entendez : 
   utile pour conserver les délais en arrière-plan d'une piste.
 
-* Temps : modifie la longueur du délai. Veuillez noter que ceci est “quantifié” en multiple du BPM 
+* Time(temps) : modifie la longueur du délai. Veuillez noter que ceci est “quantifié” en multiple du BPM 
   et donc, il “saute” entre une durée de croche, de noire, de blanche, et de ronde. 
   Della prend la valeur de BPM à partir du programme hôte et donc, si vous modifiez le tempo, 
   il restera en synchronisation !
@@ -69,11 +69,11 @@ qui “pompent” comme dans la musique “house minimale”.
 Le greffon fonctionne en analysant le volume de l'entrée par chaîne latérale, 
 et modifie le volume d'un piste stéréo séparée en se bansant sur l'amplitude de l'entrée par chaîne latérale. 
 
-* Seuil : paramètre le niveau que l'entrée audio doit atteindre pour que la piste stéréo soit réduite.
+* Treshold (seuil) : paramètre le niveau que l'entrée audio doit atteindre pour que la piste stéréo soit réduite.
 
-* Chute : contrôle la quantité de réduction de volume qui est appliqué.
+* Drop (chute) : contrôle la quantité de réduction de volume qui est appliqué.
 
-* Temps : contrôle la quantité de temps que cela prend avant que la piste stéréo ne soit de nouveau fondue. 
+* Time (temps) : contrôle la quantité de temps que cela prend avant que la piste stéréo ne soit de nouveau fondue. 
   Veuillez noter que ce contrôle dépend du BPM, et que le centre est directement sur les pulsations-off. 
   Un paramètre de la moitié (ce qui est le défaut) est généralement assez musical :)
 
@@ -89,11 +89,11 @@ Driva
 
 Driva est un effet de multi-distortion capable des plus moyennes distortions comme des plus granuleuses.
 
-* Tonalité : cliquer sur ce bouton permet de choisir un modèle de distorsion parmi une liste. 
+* Tone (tonalité) : cliquer sur ce bouton permet de choisir un modèle de distorsion parmi une liste. 
   Choisissez la distortion désirée et éclatez vous.
-  Le bouton “Annuler” en bas de la liste permet de sortir de ce menu sans effectuer de modification.
+  Le bouton “Cancel”(Annuler) en bas de la liste permet de sortir de ce menu sans effectuer de modification.
   
-* Quantité : ajuste la quantité de gain / distorsion ajoutée. À utiliser à vos propres risques et périls !
+* Amount (quantité) : ajuste la quantité de gain / distorsion ajoutée. À utiliser à vos propres risques et périls !
 
 
 ____
@@ -109,7 +109,7 @@ Filta est une combinaison de filtres passe-bas et passe-haut.
 Il est utile pour supprimer les fréquences hautes et basses indésirables 
 de nombreux enregistrements et/ou instruments.
 
-* Frequence : contrôle le type de filtrage étant réalisé, et à quelle fréquence il l'est. 
+* Frequency (frequence) : contrôle le type de filtrage étant réalisé, et à quelle fréquence il l'est. 
 Les valeurs plus basses forment un filtre passe-bas. Augmenter le bouton en fait un filtre passe-haut.
 
 
@@ -127,10 +127,10 @@ Chacun des contrôles change l'amplitude à la fréquence donnée.
 Le gain général peut être utilsé pour réduire ou augmenter 
 le volume général si besoin. Les contrôles (de gauche à droite):
 
-* Basse      (   ~55 Hz)
-* Medium(bas)  (  ~220 Hz)
-* Medium(haut) ( ~1760 Hz)
-* Haut     ( ~7040 Hz)
+* Low (Grave)  (   ~55 Hz)
+* Low mid (bas-medium)  (  ~220 Hz)
+* High mid (haut-medium) ( ~1760 Hz)
+* High (aigu)    ( ~7040 Hz)
 * Gain
 
 ____
@@ -147,7 +147,7 @@ provoquant ainsi un effet de “bégaiement”.
 
 * Volume modifie la sonie de la boucle de bégaiement. 
 * Pass : (passthru) permet de faire déteindre le signal normal à travers.
-* Temps : contrôle dépendant du BPM. Il modifie l'enregistrement de la boucle et la longueur de sa lecture. 
+* Time (temps) : contrôle dépendant du BPM. Il modifie l'enregistrement de la boucle et la longueur de sa lecture. 
   Vous pouvez réduire graduellement cette valeur pour obtenir l'effet “standard” de bégaiement de DJ !
   
 * Cet effet possède une fonctionnalité spéciale pour permettre un contrôle en fonction du BPM.
@@ -167,10 +167,10 @@ Panda
 =======
 Panda est une combinaison d'un compresseur et d'un expandeur combo, avec contôles d'attaque et de relâchement. 
 
-* Threshold : Seuil : le point de passage entre la compression et l'expansion. Les valeurs faibles en font un expandeur, 
+* Threshold (Seuil) : le point de passage entre la compression et l'expansion. Les valeurs faibles en font un expandeur, 
   les valeurs hautes un compresseur.
-* Relâche : modifie le temps pour que le greffon fonde en fermeture sa compression/expansion.
-* Facteur : contrôle la quantité de compression/expansion réalisée, aussi connu en tant que bouton de “maximisation”.
+* Release (relâchement) : modifie le temps pour que le greffon fonde en fermeture sa compression/expansion.
+* Factor (facteur) : contrôle la quantité de compression/expansion réalisée, aussi connu en tant que bouton de “maximisation”.
 
 ____
 
@@ -183,9 +183,11 @@ Roomy
 =======
 Roomy est une réverbe spacieuse et douce.
 
-* Temps : modifie la longueur de la queue de réverbération. Des valeurs élevées créeront un mixage plus large et spacieux.
-*  Étouff. : (étouffement) contrôle l'étouffement des hautes-fréquences : des paramètres bas fournissent un son ouvert et   spatieux, alors que des paramètres hauts sont ressentis petits et proches.
-* Orig. traité : modifie la quantité du signal réverbéré mixé en sortie. Utile pour les effets de “construction de réverbération” de trance et de techno… jouez avec !
+* Time (temps) : modifie la longueur de la queue de réverbération. 
+  Des valeurs élevées créeront un mixage plus large et spacieux.
+* Damping (étouffement) contrôle l'étouffement des hautes-fréquences : des paramètres bas fournissent un son ouvert 
+  et spatieux, alors que des paramètres hauts sont ressentis petits et proches.
+* Dry/Wet (Orig./traité) : modifie la quantité du signal réverbéré mixé en sortie. Utile pour les effets de “construction de réverbération” de trance et de techno… jouez avec !
 
 
 ____
@@ -201,7 +203,7 @@ Satma effet fou de distortion. Très utile pour 'salir l'audio en le rendant gra
 
 * Distorsion : modifie la quantité de lise-en-forme du signal qui advient : la quantité général de bruit produite.
    
-* Tonalité : varie subtilement entre les hautes et les basses fréquences, ou les rend toutes deux granuleuses.
+* Tone (tonalité) : varie subtilement entre les hautes et les basses fréquences, ou les rend toutes deux granuleuses.
 
 
 
@@ -216,6 +218,7 @@ Vihda
 =======
 Vihda est un réhausseur stéréo, utilisant une matrice “mid-side”. 
 
-* Largeur : affecte la quantité de contenu stéréo dans le signal. 
+* Width (largeur) : affecte la quantité de contenu stéréo dans le signal. 
 Veuillez noter que la technique “mid-side” réhausse uniquement la stéréo, elle ne la crée pas !
-*bouton Inverser : inverse le canal droit ce qui provoque un mix ressenti plus large à cause de la façon dont le cerveau interprète l'audio. Essayez-le et écoutez si ça sonne bien.
+*bouton Invert (inverser) : inverse le canal droit ce qui provoque un mix ressenti plus large à cause de la façon 
+ dont le cerveau interprète l'audio. Essayez-le et écoutez si ça sonne bien.

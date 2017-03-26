@@ -63,11 +63,11 @@ ____
 
 Ducka
 =======
- Ducka est un éditeur d'enveloppe avec volume par chaîne latérale:
- c'est un greffon très utile pour créer des lignes de basse 
- qui “pompent” comme dans la musique “house minimale”. 
- Le greffon fonctionne en analysant le volume de l'entrée par chaîne latérale, 
- et modifie le volume d'un piste stéréo séparée en se bansant sur l'amplitude de l'entrée par chaîne latérale. 
+Ducka est un éditeur d'enveloppe avec volume par chaîne latérale :
+c'est un greffon très utile pour créer des lignes de basse 
+qui “pompent” comme dans la musique “house minimale”. 
+Le greffon fonctionne en analysant le volume de l'entrée par chaîne latérale, 
+et modifie le volume d'un piste stéréo séparée en se bansant sur l'amplitude de l'entrée par chaîne latérale. 
 
 * Seuil : paramètre le niveau que l'entrée audio doit atteindre pour que la piste stéréo soit réduite.
 

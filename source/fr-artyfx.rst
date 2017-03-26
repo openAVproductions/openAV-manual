@@ -6,12 +6,12 @@ ArtyFX
 ########
 
 ArtyFX est une suite d’effets audio, qui peuvent être utilisés de manière autonome 
-mais qui sont aussi conçus pour être insérés dans d’autres applications plus complexes d’ OpenAV 
-comme Fabla2, Sorcer and Luppp. Chaque effet peut être utilisé individuellement comme greffon LV2.
-ArtyFX comprend différents greffons – tous les effets classiques  comme les réverbes, delays et filtres sont inclus. 
+mais qui sont aussi conçus pour être insérés dans d’autres applications plus complexes d’OpenAV 
+comme Fabla2,Sorcer and Luppp. Chaque effet peut être utilisé individuellement comme greffon LV2.
+ArtyFX comprend différents greffons – tous les effets classiques comme les réverbes, delays et filtres sont inclus. 
 Les paragraphes suivants détaillent chaque greffon individuellement, montrant comment ils peuvent être utilisés, 
-et faisant aussi quelques suggestions sur les meilleures utilisation.
-Vous avez des suggestions de grefffons pour les ArtyFx? Contactez OpenAV !
+et faisant aussi quelques suggestions sur les meilleures utilisations.
+Vous avez des suggestions de greffons pour les ArtyFx? Contactez OpenAV !
 
 
 ____

@@ -5,21 +5,20 @@ Luppp
 .. image:: img/luppp/luppp.png
    :align: center
 
-Luppp is a music creation tool, intended for live use. The focus is on real
-time processing and a fastintuitive workflow. With extensive MIDI mapping
-support, you can get looping just how you like! The next sections will show
-you how to set up Luppp with JACK for audio input and output, and introduce
-the concepts of "Scenes" and "Clips" to let you start arranging your
-creativity for live performances!
+Luppp est un outil de création musicale, destiné à l’utilisation en direct (live).
+L’objectif  principal est le traitement en temps réel ainsi qu’une utilisation rapide et intuitive.
+Avec un support étendu du mappage midi, vous pouvez gérer les boucles comment vous aimez!
+Les paragraphes suivants vous expliqueront comment connecter Luppp avec Jack pour les entrées et sorties audio 
+et vous présenteront les concepts de "Scènes" et de "Clips" pour utiliser votre créativité pour des performances en direct!
 
-Luppp and JACK
+Luppp et JACK
 ==============
 
-If you are totally new to JACK and Luppp, this is an example video that
-shows what a typical Luppp looping session looks like:
+Si vous débutez avec Jack et Luppp, voici un exemple en vidéo qui vous montre
+à quoi ressemble une session d’utilisation typique de boucles dans Luppp:
 https://www.youtube.com/watch?v=R6WiWDDKRCQ
 
-Before we can record we need to connect some audio source to Luppps
+Avant de pouvoir enregistrer, we need to connect some audio source to Luppps
 master_in and connect master_right and master_left to the output jacks
 of the system. See screenshot of the connections:
 

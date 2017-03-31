@@ -18,9 +18,9 @@ Si vous débutez avec Jack et Luppp, voici un exemple en vidéo qui vous montre
 à quoi ressemble une session d’utilisation typique de boucles dans Luppp:
 https://www.youtube.com/watch?v=R6WiWDDKRCQ
 
-Avant de pouvoir enregistrer, we need to connect some audio source to Luppps
-master_in and connect master_right and master_left to the output jacks
-of the system. See screenshot of the connections:
+Avant de pouvoir enregistrer,  il faut connecter les sources audio à l’entrée  principale
+(master_in) de  Luppp and connecter les sorties principales ( master_left et master_right) 
+aux  sorties du système (playback₁ et playback_2). Voir la capture d’écrans des connexions:
 
 .. image:: img/luppp/luppp_jack_connections.png
    :align: center

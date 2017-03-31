@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=R6WiWDDKRCQ
 
 Avant de pouvoir enregistrer,  il faut connecter les sources audio à l’entrée  principale
 (master_in) de  Luppp and connecter les sorties principales ( master_left et master_right) 
-aux  sorties du système (playback₁ et playback_2). Voir la capture d’écrans des connexions:
+aux  sorties du système (playback_1  et playback_2). Voir la capture d’écrans des connexions:
 
 .. image:: img/luppp/luppp_jack_connections.png
    :align: center

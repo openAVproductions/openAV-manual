@@ -25,21 +25,20 @@ aux  sorties du système (playback_1  et playback_2). Voir la capture d’écran
 .. image:: img/luppp/luppp_jack_connections.png
    :align: center
 
-Next we will take a look at the Luppp interface, which may seem complex at
-the start, but really its quite simple once we understand what each part of
-the UI does.
+Ensuite nous allons  jeter un œil du coté de l’ interface de  Luppp, 
+qui peut paraître complexe audébut, mais qui est vraiment simple dès que 
+l’on a compris à quoi sert chaque partie de l’interface.
 
 .. image:: img/luppp/luppp_interface.png
    :align: left
 
-You can see 8 Tracks with each 10 Clips. To check if your setup work
-just play your audio source and you should see the amplitude of the audio
-on the top right meter. If this works, you are ready to go!
+Vous pouvez voir 8 pistes contenant 10 Clips chacune. Afin de vérifier que votre configuration fonctionne, 
+jouer avec votre source audio et vous devriez voir le signal de l’audio 
+dans le vu-mètre en haut à droite de l’interface. Si cela fonctionne, vous êtes prêt!
 
-Now click on a Clip to start recording and click again to start looping!
-All actions of Luppp are synced to the Beat, which is indicated by the four
-squares on the bottom right of the window. You can change the tempo by
-turning the knob with the BPM number (which should be 120 by default).
+Maintenant cliquez sur un Clip pour démarrer l’enregistrement puis cliquez une nouvelle fois pour lancer la boucle !
+Toutes les actions de Luppp sont synchronisées au tempo, qui est indiqué par 4 carrésen bas à droite de la fenêtre. 
+Vous pouvez changer le tempo en tournant le bouton dans lequel est indiqué le nombre de BPM (qui doit ête 120 par défaut).
 
 
 .. image:: img/luppp/luppp_scenes.png

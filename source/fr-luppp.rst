@@ -48,15 +48,14 @@ Vous pouvez changer le tempo en tournant le bouton dans lequel est indiqué le n
 Scenes 
 ======
 
-A pretty important concept of Luppp are the scenes. On each track you can
-just play one clip at the same time. In the master section of Luppp you can
-see a list of Scenes. You can launch a scene by clicking on
-it. When you do this, all clips in this row start at the same time.
+Un concept assez important de Luppp est basé sur ‘les scènes’. Dans chaque piste vous pouvez seulement jouer un clip à la fois. 
+Dans la section ‘Master’ de Luppp vous pouvez voir une liste de’ Scènes’. Vous pouvez lancer une scène en cliquant dessus. 
+Quand vous faîtes cela, tous les clips dans cette ligne commencent en même temps.
 
-.. Tip::
-   When you use clips with a length higher than one bar, be careful to
-   start the recording at the same time when other clips in the row are
-   starting. If not, launching a scene will create a little mess ;)
+.. AstuceT::
+    Quand vous utilisez des clips dont la longueur est supérieur à une mesure, 
+    faites attention à démarrer l’enregistrement  en même temps que les autres clips de la ligne qui sont  lancés. 
+    Sinon, lancer une scène créera un peu de désordre ;)
 
 
 -----

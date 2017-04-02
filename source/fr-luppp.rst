@@ -52,9 +52,9 @@ Un concept assez important de Luppp est basé sur ‘les scènes’. Dans chaque
 Dans la section ‘Master’ de Luppp vous pouvez voir une liste de’ Scènes’. Vous pouvez lancer une scène en cliquant dessus. 
 Quand vous faîtes cela, tous les clips dans cette ligne commencent en même temps.
 
-.. AstuceT::
+.. Astuce::
     Quand vous utilisez des clips dont la longueur est supérieur à une mesure, 
-    faites attention à démarrer l’enregistrement  en même temps que les autres clips de la ligne qui sont  lancés. 
+    faites attention à démarrer l’enregistrement en même temps que les autres clips de la ligne qui sont lancés. 
     Sinon, lancer une scène créera un peu de désordre ;)
 
 

@@ -7,27 +7,27 @@ Luppp
 
 Luppp est un outil de création musicale, destiné à l’utilisation en direct (live).
 L’objectif  principal est le traitement en temps réel ainsi qu’une utilisation rapide et intuitive.
-Avec un support étendu du mappage midi, vous pouvez gérer les boucles comment vous aimez!
+Avec un support étendu du mappage midi, vous pouvez gérer les boucles comme vous aimez !
 Les paragraphes suivants vous expliqueront comment connecter Luppp avec Jack pour les entrées et sorties audio 
-et vous présenteront les concepts de "Scènes" et de "Clips" pour utiliser votre créativité pour des performances en direct!
+et vous présenteront les concepts de "scènes" et de "clips" pour utiliser votre créativité pour des performances en direct !
 
 Luppp et JACK
 ==============
 
 Si vous débutez avec Jack et Luppp, voici un exemple en vidéo qui vous montre
-à quoi ressemble une session d’utilisation typique de boucles dans Luppp:
+à quoi ressemble une session d’utilisation typique de boucles dans Luppp :
 https://www.youtube.com/watch?v=R6WiWDDKRCQ
 
-Avant de pouvoir enregistrer,  il faut connecter les sources audio à l’entrée  principale
-(master_in) de  Luppp and connecter les sorties principales ( master_left et master_right) 
-aux  sorties du système (playback_1  et playback_2). Voir la capture d’écrans des connexions:
+Avant de pouvoir enregistrer, il faut connecter les sources audio à l’entrée principale
+(master_in) de Luppp et connecter les sorties principales (master_left et master_right) 
+aux sorties du système (playback_1  et playback_2). Voir la capture d’écran des connexions :
 
 .. image:: img/luppp/luppp_jack_connections.png
    :align: center
 
-Next we will take a look at the Luppp interface, which may seem complex at
-the start, but really its quite simple once we understand what each part of
-the UI does.
+Ensuite, nous jeterons un œil à l'interface de Luppp, qui peut sembler complexe au
+départ, mais qui est vraiment plutôt simple une fois que l'on comprend à quoi sert
+chaque partie de l'interface graphique.
 
 .. image:: img/luppp/luppp_interface.png
    :align: left

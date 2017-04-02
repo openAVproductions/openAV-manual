@@ -34,7 +34,7 @@ chaque partie de l'interface graphique.
    :align: left
 
 Vous pouvez voir 8 pistes contenant 10 Clips chacune. Afin de vérifier que votre configuration fonctionne, 
-jouer avec votre source audio et vous devriez voir le signal de l’audio 
+jouez avec votre source audio et vous devriez voir le signal de l’audio 
 dans le vu-mètre en haut à droite de l’interface. Si cela fonctionne, vous êtes prêt!
 
 Maintenant cliquez sur un Clip pour démarrer l’enregistrement puis cliquez une nouvelle fois pour lancer la boucle !
@@ -48,8 +48,8 @@ Vous pouvez changer le tempo en tournant le bouton dans lequel est indiqué le n
 Scenes 
 ======
 
-Un concept assez important de Luppp est basé sur ‘les scènes’. Dans chaque piste vous pouvez seulement jouer un clip à la fois. 
-Dans la section ‘Master’ de Luppp vous pouvez voir une liste de’ Scènes’. Vous pouvez lancer une scène en cliquant dessus. 
+Un concept assez important de Luppp est basé sur les ‘scènes’. Dans chaque piste vous pouvez seulement jouer un clip à la fois. 
+Dans la section ‘Master’ de Luppp vous pouvez voir une liste de ’scènes’. Vous pouvez lancer une scène en cliquant dessus. 
 Quand vous faîtes cela, tous les clips dans cette ligne commencent en même temps.
 
 .. Astuce::

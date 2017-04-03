@@ -66,13 +66,13 @@ Quand vous faites cela, tous les clips de cette ligne commencent en même temps.
 Pistes
 ======
 
-Toutes les pistes de Luppp possèdent certains contrôleurs faisant des choses incroyables.
+Toutes les pistes de Luppp possèdent des contrôleurs faisant des choses incroyables.
 Nous allons les passer en revue à partir du haut vers le bas.
 Premièrement, il y a le nom de la piste. Vous pouvez le modifier en cliquant-droit dessus.
 En dessous, se trouve un cercle affichant la progression de la lecture de la boucle dans la piste.
 C'est plutôt utile de le regarder lors de l'enregistrement d'autres clips dans la même ligne.
-La chose suivante est "les clips". Vous pouvez leur donner un nom avec un clic-droit également.
-Ils affichent également le statu correct d'un clup, s'il est en train d'enregistrer, d'être lu, ou vide.
+La chose suivante est "les clips". Vous pouvez leurs donner un nom avec un clic-droit également.
+Ils affichent également le statut correct d'un clip, s'il est en train d'enregistrer, d'être lu, ou vide.
 En bas, il y a un chariot qui ajuste le volume de la piste mixé dans le master.
 Sur la gauche des chariots, se trouvent certains contrôles que nous décrirons dans les sections suivantes.
 

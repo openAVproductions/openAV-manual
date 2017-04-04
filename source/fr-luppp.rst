@@ -6,9 +6,9 @@ Luppp
    :align: center
 
 Luppp est un outil de création musicale, destiné à l’utilisation en direct (live).
-L’objectif  principal est le traitement en temps réel ainsi qu’une utilisation rapide et intuitive.
+L’objectif principal est le traitement en temps réel ainsi qu’une utilisation rapide et intuitive.
 Avec un support étendu du mappage midi, vous pouvez gérer les boucles comme vous aimez !
-Les paragraphes suivants vous expliqueront comment connecter Luppp avec Jack pour les entrées et sorties audio 
+Les paragraphes suivants vous expliqueront comment connecter Luppp avec Jack pour les entrées et sorties audio
 et vous présenteront les concepts de "scènes" et de "clips" pour utiliser votre créativité pour des performances en direct !
 
 Luppp et JACK
@@ -19,7 +19,7 @@ Si vous débutez avec Jack et Luppp, voici un exemple en vidéo qui vous montre
 https://www.youtube.com/watch?v=R6WiWDDKRCQ
 
 Avant de pouvoir enregistrer, il faut connecter les sources audio à l’entrée principale
-(master_in) de Luppp et connecter les sorties principales (master_left et master_right) 
+(master_in) de Luppp et connecter les sorties principales (master_left et master_right)
 aux sorties du système (playback_1  et playback_2). Voir la capture d’écran des connexions :
 
 .. image:: img/luppp/luppp_jack_connections.png
@@ -33,29 +33,29 @@ chaque partie de l'interface graphique.
 .. image:: img/luppp/luppp_interface.png
    :align: left
 
-Vous pouvez voir 8 pistes contenant 10 Clips chacune. Afin de vérifier que votre configuration fonctionne, 
-jouez avec votre source audio et vous devriez voir le signal de l’audio 
-dans le vu-mètre en haut à droite de l’interface. Si cela fonctionne, vous êtes prêt!
+Vous pouvez voir 8 pistes contenant 10 clips chacune. Afin de vérifier que votre configuration fonctionne,
+faites jouer votre source audio et vous devriez voir l'amplitude de l’audio
+dans le vu-mètre en haut à droite de l’interface. Si cela fonctionne, vous êtes prêt !
 
-Maintenant cliquez sur un Clip pour démarrer l’enregistrement puis cliquez une nouvelle fois pour lancer la boucle !
-Toutes les actions de Luppp sont synchronisées au tempo, qui est indiqué par 4 carrésen bas à droite de la fenêtre. 
-Vous pouvez changer le tempo en tournant le bouton dans lequel est indiqué le nombre de BPM (qui doit ête 120 par défaut).
+Maintenant, cliquez sur un clip pour démarrer l’enregistrement puis cliquez une nouvelle fois pour lancer la lecture en boucle !
+Toutes les actions de Luppp sont synchronisées à la pulsation, qui est indiqué par les quatre carrés en bas à droite de la fenêtre. 
+Vous pouvez changer le tempo en tournant le bouton dans lequel est indiqué le nombre de BPM (qui doit être à 120 par défaut).
 
 
 .. image:: img/luppp/luppp_scenes.png
 	:align: right
 
-Scenes 
+Scènes 
 ======
 
-Un concept assez important de Luppp est basé sur les ‘scènes’. Dans chaque piste vous pouvez seulement jouer un clip à la fois. 
-Dans la section ‘Master’ de Luppp vous pouvez voir une liste de ’scènes’. Vous pouvez lancer une scène en cliquant dessus. 
-Quand vous faîtes cela, tous les clips dans cette ligne commencent en même temps.
+Un concept de Luppp plutôt important est les ‘scènes’. Dans chaque piste, vous pouvez seulement jouer un clip à la fois.
+Dans la section ‘Master’ de Luppp, vous pouvez voir une liste de ’scènes’. Vous pouvez lancer une scène en cliquant dessus.
+Quand vous faites cela, tous les clips de cette ligne commencent en même temps.
 
 .. Astuce::
-    Quand vous utilisez des clips dont la longueur est supérieur à une mesure, 
-    faites attention à démarrer l’enregistrement en même temps que les autres clips 
-    de la ligne qui sont lancés. Sinon, lancer une scène créera un peu de désordre ;)
+   Quand vous utilisez des clips dont la longueur est supérieur à une mesure, 
+   faites attention à démarrer l’enregistrement en même temps que les autres clips 
+   de la ligne qui sont lancés. Sinon, lancer une scène créera un peu de désordre ;)
 
 
 -----
@@ -63,24 +63,23 @@ Quand vous faîtes cela, tous les clips dans cette ligne commencent en même tem
 .. image:: img/luppp/luppp_track.png
    :align: left
 
-Tracks
+Pistes
 ======
 
-All tracks of Luppp have some controllers to do incredible thinks. I will
-walk through them from top to bottom. At first, there is the name of the
-track. You can change it by right-clicking on it. Below this,
-there is a circle showing the progress of the playing loop in the track.
-Its pretty useful to look at it when recording other clips in the same row.
-The next thing to come are the clips. You can give them a name with a right
-click, too. They also show the currect status of a clip, if its recording,
-playing or empty. On the buttom is a fader, which adjust the volume of the
-track mixed to the master. On the left side of the faders are some controls
-we look at in the next sections.
+Toutes les pistes de Luppp possèdent des contrôleurs faisant des choses incroyables.
+Nous allons les passer en revue à partir du haut vers le bas.
+Premièrement, il y a le nom de la piste. Vous pouvez le modifier en cliquant-droit dessus.
+En dessous, se trouve un cercle affichant la progression de la lecture de la boucle dans la piste.
+C'est plutôt utile de le regarder lors de l'enregistrement d'autres clips dans la même ligne.
+La chose suivante est "les clips". Vous pouvez leurs donner un nom avec un clic-droit également.
+Ils affichent également le statut correct d'un clip, s'il est en train d'enregistrer, d'être lu, ou vide.
+En bas, il y a un chariot qui ajuste le volume de la piste mixé dans le master.
+Sur la gauche des chariots, se trouvent certains contrôles que nous décrirons dans les sections suivantes.
 
 .. Tip::
-	You can use your keyboard, to control the clips! The first scene
-	are the numbers from 1-8, 9 triggers the first scene. The following
-	rows are binded to the subjacent scenes. Just try!
+	Vous pouvez utiliser votre clavier alpha-numérique pour contrôler les clips !
+	La première scène est représentée par les nombres de 1 à 8, le 9 déclenche la première scène.
+	Les lignes suivantes sont branchées sur les scènes sous-jacentes. Essayez !
 
 -----
 

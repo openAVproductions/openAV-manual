@@ -93,7 +93,7 @@ This feature gives you the great possibility to simply add some reverb on a
 track. Before we can try, we need to connect Luppps send_out to a reverb of
 our choice (eg :ref:`roomy`) and the outputs of the reverb back to Luppps
 master_returns. If its done, we can enable the reverb for each track with
-the Snd-Button and adjust the amount of reverb the the above knob. 
+the Snd-Button and adjust the amount of reverb with the above knob. 
 
 The connections for a reverb send are as follows:
 

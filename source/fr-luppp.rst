@@ -83,16 +83,16 @@ Sur la gauche des chariots, se trouvent certains contrôles que nous décrirons 
 
 -----
 
-Reverb Send
-===========
+Envoi de réverb'
+================
 
-This feature gives you the great possibility to simply add some reverb on a
-track. Before we can try, we need to connect Luppps send_out to a reverb of
-our choice (eg :ref:`roomy`) and the outputs of the reverb back to Luppps
-master_returns. If its done, we can enable the reverb for each track with
-the Snd-Button and adjust the amount of reverb the the above knob. 
+Cette fonctionnalité vous offre la possibilité d'ajouter simplement de la réverbération sur une piste.
+Avant de pouvoir essayer ceci, nous devons connecter les send_out de Luppp à une réverb' de notre choix
+(par exemple :ref:`roomy`) et les sorties de la réverb' en retour dans les master_returns de Luppp.
+Lorsque c'est fait, nous pouvons activer la réverb' pour chaque piste avec le bouton Snd-Button et
+ajuster la quantité de réverb' avec le bouton rotatif au dessus.
 
-The connections for a reverb send are as follows:
+Les connexions pour un envoi de réverb' sont comme suit :
 
 .. image:: img/luppp/luppp_reverb_send_connections.png
    :align: center
@@ -100,12 +100,12 @@ The connections for a reverb send are as follows:
 .. image:: img/luppp/luppp_reverb_roomy.png
    :align: right
 
-And the recommended Roomy settings are shown here - the most important part
-is to set the Dry/Wet dial to 100% Wet, as then only the reverb is output,
-and the original signal is totally muted. Given that Luppp is already
-outputting the original signal, we do not want the reverb to also do that!
+Et les paramètres recommandés pour Roomy sont affichés ici - la partie la plus importante
+est de paramétrer le bouton Dry/Wet (original/traité) à 100% Wet, ainsi seule la réverb' ressort,
+et le signal original est complètement mis en sourdine. Étant donné que Luppp sort déjà le signal original,
+nous ne voulons pas que la réverb' le fasse aussi !
 
-There is a video about this topic, too: https://www.youtube.com/watch?v=wLy9oG_WpHg
+Il y a une vidéo (en anglais) à ce sujet : https://www.youtube.com/watch?v=wLy9oG_WpHg
 
 -----
 

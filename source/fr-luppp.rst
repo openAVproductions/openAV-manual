@@ -109,25 +109,23 @@ Il y a une vidéo (en anglais) à ce sujet : https://www.youtube.com/watch?v=wLy
 
 -----
 
-Sidechaining
-============
+Chaînage latéral
+================
 
-Using Luppp its very easy to use sidechaining, for example to create some
-house bass lines.. Its a pretty simple concept: you use one audio signal to
-control the processing of another signal. This processing could be a
-compressor or an enveloper (eg :ref:`ducka`). So, how to use it? At first
-we again need to do some connections. Luppps sidechain_key needs to be
-connected to a sidechain input and Luppps sidechain_signal needs to be
-connected to the regular audio inputs of the Ducka plugin.
-Send the outputs of the plugins to the master outputs.
+Il est très facile d'utiliser le chaînage latéral (NdT : sidechaining en anglais) en utilisant Luppp, par exemple
+pour créer des lignes de basses house. Le concept est plutôt simple : vous utilisez un signal audio pour
+contrôler le traitement d'un autre signal. Ce traitement peut être un compresseur ou un enveloppeur (par
+exemple : ref:`ducka`). Alors, comment l'utiliser ? Premièrement, nous devons ici aussi faire des connexions.
+Les sidechain_key de Luppp doivent être connectés à une entrée de chaînage latéral et les sidechain_signal de Luppp doivent
+être connectés aux entrées audio régulières du greffon Ducka. Envoyez les sorties des greffons aux sorties master.
 
-Back to Luppp. On one track you need to enable the Key-Button. This way the
-output of the track is the trigger for the sidechain effect. Now you can
-send each track with the knob above the Key-Button to the plugin. If you
-want to see how its works, watch these videos: 
+De retour à Luppp. Sur une piste, vous devez activer le bouton "Key". De cette façon, la sortie
+de la piste est le déclencheur de l'effet de chaînage latéral. Maintenant, vous pouvez envoyez
+chaque piste avec le bouton rotatif au dessus du bouton "Key" vers le greffon. Si vous souhaitez
+voir comment ceci fonctionne, regardez ces vidéos (en anglais) :
 
-* Explanation: https://www.youtube.com/watch?v=-AwtMUeBc9w
-* Showcase: https://www.youtube.com/watch?v=bPJQs6w2XQc
+* Explication : https://www.youtube.com/watch?v=-AwtMUeBc9w
+* Démonstration par l'exemple : https://www.youtube.com/watch?v=bPJQs6w2XQc
 
 Input Section
 =============

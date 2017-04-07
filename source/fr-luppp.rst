@@ -112,15 +112,15 @@ Il y a une vidéo (en anglais) à ce sujet : https://www.youtube.com/watch?v=wLy
 Chaînage latéral
 ================
 
-Il est très facile d'utiliser le chaînage latéral (NdT : sidechaining en anglais) en utilisant Luppp, par exemple
-pour créer des lignes de basses house. Le concept est plutôt simple : vous utilisez un signal audio pour
+Il est très facile de pratiquer un chaînage latéral (NdT : "sidechaining" en anglais) en utilisant Luppp, par exemple
+pour créer des lignes de basse house. Le concept est plutôt simple : vous utilisez un signal audio pour
 contrôler le traitement d'un autre signal. Ce traitement peut être un compresseur ou un enveloppeur (par
 exemple : ref:`ducka`). Alors, comment l'utiliser ? Premièrement, nous devons ici aussi faire des connexions.
 Les sidechain_key de Luppp doivent être connectés à une entrée de chaînage latéral et les sidechain_signal de Luppp doivent
 être connectés aux entrées audio régulières du greffon Ducka. Envoyez les sorties des greffons aux sorties master.
 
-De retour à Luppp. Sur une piste, vous devez activer le bouton "Key". De cette façon, la sortie
-de la piste est le déclencheur de l'effet de chaînage latéral. Maintenant, vous pouvez envoyez
+Retour à Luppp. Sur une piste, vous devez activer le bouton "Key". Ce faisant, la sortie
+de la piste est le déclencheur de l'effet de chaînage latéral. Maintenant, vous pouvez envoyer
 chaque piste avec le bouton rotatif au dessus du bouton "Key" vers le greffon. Si vous souhaitez
 voir comment ceci fonctionne, regardez ces vidéos (en anglais) :
 

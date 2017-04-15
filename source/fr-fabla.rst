@@ -6,9 +6,9 @@
 Fabla
 ########
 
-Fabla is an open-source LV2 drum sampler plugin instrument. It is ideal for loading up your favorite sampled sounds and bashing away on a MIDI controller. Or if it’s crafty beat programming your after that’s cool too! The ADSR envelope allows the shaping of hi-hats and kicks while the compressor beefs up the sound for thumping kicks!
+Fabla est un instrument échantillonneur de batterie en greffon LV2. Il est idéal pour charger vos sons favoris et les balancer avec votre contrôleur MIDI. Ou, si vous cherchez à programmer des rythmes artisanaux, c'est bien aussi ! L'enveloppe ADSR permet de dessiner les contours des charlestons et des grosses caisses pendant que le compresseur renforce le son des grosses caisses lancinantes. 
 
-.. note:: The source code is available from the `Fabla page on Github`_
+.. note:: Le code source  est disponible depuis la page de Fabla sur Github`_
 	but your package manager probably has a pre-compiled version!
 
 .. _Fabla page on Github: https://github.com/openAVproductions/openAV-Fabla/

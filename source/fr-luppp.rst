@@ -52,7 +52,7 @@ Un concept de Luppp plutôt important est les ‘scènes’. Dans chaque piste, 
 Dans la section ‘Master’ de Luppp, vous pouvez voir une liste de ’scènes’. Vous pouvez lancer une scène en cliquant dessus.
 Quand vous faites cela, tous les clips de cette ligne commencent en même temps.
 
-.. Astuce::
+.. Tip::
    Quand vous utilisez des clips dont la longueur est supérieur à une mesure, 
    faites attention à démarrer l’enregistrement en même temps que les autres clips 
    de la ligne qui sont lancés. Sinon, lancer une scène créera un peu de désordre ;)
@@ -76,7 +76,7 @@ Ils affichent également le statut correct d'un clip, s'il est en train d'enregi
 En bas, il y a un chariot qui ajuste le volume de la piste mixé dans le master.
 Sur la gauche des chariots, se trouvent certains contrôles que nous décrirons dans les sections suivantes.
 
-.. Astuce::
+.. Tip::
 	Vous pouvez utiliser votre clavier alpha-numérique pour contrôler les clips !
 	La première scène est représentée par les nombres de 1 à 8, le 9 déclenche la première scène.
 	Les lignes suivantes sont branchées sur les scènes sous-jacentes. Essayez !
@@ -127,58 +127,56 @@ voir comment ceci fonctionne, regardez ces vidéos (en anglais) :
 * Explication : https://www.youtube.com/watch?v=-AwtMUeBc9w
 * Démonstration par l'exemple : https://www.youtube.com/watch?v=bPJQs6w2XQc
 
-La Section Input
-================
+La section d'entrée
+===================
 
-Au début de ce tutoriel nous avons connecté une source audio aux master_in de Luppp. 
-Vous pouvez connecter plusieurs entrées de differentes sources, ou chaque sorties d'un mixeur ou tout ce que voupez imaginez! 
-Dans le coin droit supérieur de l'interface, vous pouvez voir la section Input de Luppp.
+Au début de ce tutoriel, nous avons connecté une source audio aux master_in de Luppp. 
+Vous pouvez connecter plusieurs entrées de differentes sources, ou chaque sortie d'un mixeur, ou tout ce que pouvez imaginer ! 
+Dans le coin droit supérieur de l'interface, vous pouvez voir la section d'entrée de Luppp.
 
-Ici, vous avez un vu-mètre, et un fader pour ajuster le volume des entrées. Les boutons dessous
-font les choses suivantes:
+Ici, vous avez un VU-mètre, et un chariot pour ajuster le volume des entrées. Les boutons en dessous font les choses suivantes :
 
 .. image:: img/luppp/luppp_inputsection.png
    :align: left
 
-* Le bouton "Snd" active l'envoi (Le bouton ci-dessus dose la quantité, comme la réverb')
-* Le bouton "Key" défini les entrées comme signal source pour le chaînage latéral
-* Le bouton au dessus du bouton "Key" règle la quantité de signal pour le chaînage latéral
-* Le bouton "Mix" active le routing des entrées aux sorties principales de Luppp
-* Le bouton au dessus du bouton "Mix" règle la quantité de signal des entrées dans les sorties principales.
+* le bouton "Snd" active l'envoi (le bouton ci-dessus dose la quantité, comme la réverb')
+* le bouton "Key" défini les entrées comme signal source pour le chaînage latéral
+* le bouton au dessus du bouton "Key" règle la quantité de signal pour le chaînage latéral
+* le bouton "Mix" active le routage des entrées vers les sorties principales de Luppp
+* le bouton au dessus du bouton "Mix" règle la quantité de signal des entrées dans les sorties principales
 
-Vous avez donc de grandes possibilités: une petite réverb' sur les entrées, utiliser des 
-entrées pour un chaînage latéral special? Facile! Vous pouvez surveiller ce que vous jouez avec
-Luppp et adjuster le volume enregistré pour l'adapter aux autres pistes.
+Vous avez donc de grandes possibilités : une petite réverb' sur les entrées, utiliser des entrées pour un chaînage latéral special ? Facile! Vous pouvez surveiller ce que vous jouez avec Luppp et ajuster le volume enregistré pour l'adapter aux autres pistes.
 
-La Section Master
+La section Master
 =================
 
 .. image:: img/luppp/luppp_master_section.png
    :align: right
 
-Jetez un oeil à la dernière partie de l'interface: la section master. Les fonctions de la plupart des éléments
+Jetez un oeil à la dernière partie de l'interface : la section master. Les fonctions de la plupart des éléments
 sont vraiment évidents, donc je les expliquerai rapidement :
 
-* les carrés vert, jaune, orange and rouge montre le battement (de bas en haut)
-* le  bouton "Stop/Play" arrête ou redémarre la lecture
-* avec le bouton "Tap" vous pouvez ajuster le tempo en cliquant la pulsation
-* le bouton "Metro" activate le métronome dans les sorties casques (headphones_out) de Luppp (notez que vous pouvez choisir 	  entre une sélection de différents niveaux de volume en cliquant-droit sur le bouton "Metro")
+* les carrés vert, jaune, orange et rouge montrent le battement (de bas en haut)
+* le bouton "Stop/Play" arrête ou redémarre la lecture
+* avec le bouton "Tap", vous pouvez ajuster le tempo en cliquant la pulsation
+* le bouton "Metro" active le métronome dans les sorties casque (headphones_out) de Luppp (notez que vous pouvez choisir 	  entre une sélection de différents niveaux de volume en cliquant-droit sur le bouton "Metro")
 * le bouton avec les chiffres indique le tempo
 * le bouton "Return" ajuste le volume du retour audio (come la réverb')
-* le fader ajuste le volume principal.
+* le chariot ajuste le volume principal.
+
 
 Configuration
 =============
 
 Luppp fournit quelques fonctionnalités de configuration dans un fichier se trouvant 
 dans le répertoire de configuration de l'utilisateur. 
-Il permet de mettre des contrôleurs par défaut en les ajoutant 
-à la liste des contrôleurs par défaut, comme indiqué ci dessous. Notez bien que plusieurs
-controleurs peuvent être ajoutés, listés comme des chaines séparées avec une virgule intercalée entre eux.
+Il permet de mettre des contrôleurs par défaut en les ajoutant à la liste des contrôleurs par défaut, 
+comme indiqué ci dessous. Notez bien que plusieurs contrôleurs peuvent être ajoutés, listés comme des
+shaines séparées avec une virgule intercalée entre eux.
 
 Le fichier à éditer est:
 ``~/.config/openAV/luppp/luppp.prfs``
 
-notamment, mettez à jour cette ligne qui contient the le nom du fichier de votre contrôleur par défaut:
+notamment, mettez à jour cette ligne qui contient the le nom du fichier de votre contrôleur par défaut :
 
 ``"defaultControllers":   ["akai_apc.ctlr"],``

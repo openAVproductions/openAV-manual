@@ -20,7 +20,7 @@ shows what a typical Luppp looping session looks like:
 https://www.youtube.com/watch?v=R6WiWDDKRCQ
 
 Before we can record we need to connect some audio source to Luppps
-master_in and connect master_right and master_left to the output jacks
+master_in_left and master_in_right and connect master_right and master_left to the output jacks
 of the system. See screenshot of the connections:
 
 .. image:: img/luppp/luppp_jack_connections.png
@@ -135,15 +135,9 @@ want to see how its works, watch these videos:
 Input Section
 =============
 
-At the beginning of this tutorial we connected a audio source to Luppps master_in. 
+At the beginning of this tutorial we connected a audio source to Luppps master_in_left and master_in_right. 
 You can input several different sources, or any output of a mixer or what ever you can 
 imagine! In the top right corner of the GUI you can see the Luppp Input Section.
-
-.. Tip ::
-	Luppp only has a mono input. If you want to connect a stereo source like a synthesizer, 
-	there are severel possibilities. In the most cases its enough to connect just one side since 
-	there are equal or similar. If you need both sides, consider a mixer to mix them together.
-	But there might be some trouble if you simply connect both to the input port.
 
 Here you have a meter, and a fader to adjust the volume of the input. The knobs below
 do the following:

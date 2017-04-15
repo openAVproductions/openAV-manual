@@ -170,14 +170,14 @@ sont vraiment évidents, donc je les expliquerai rapidement :
 Configuration
 =============
 
-Luppp provides some configuration features in a file under the user's
-config directory. It allows setting default controllers by adding them
-to the default controllers list, as shown below. Note that multiple
-controllers can be added, listed as seperate strings with a comma
-inbetween.
+Luppp fournit quelques fonctionnalités de configuration dans un fichier se trouvant 
+dans le répertoire de configuration de l'utilisateur . 
+Il permet de mettre des contrôleurs par défaut en les ajoutant 
+à la liste des controleurs par défaut, comme indiqué ci dessous. Notez bien que plusieurs
+controleurs peuvent être ajoutés, listés comme des chaines séparées avec une virgule intercalée entre eux.
 
-The file to edit is:
+Le fichier à éditer est:
 ``~/.config/openAV/luppp/luppp.prfs``
-in particular, update this line to contain the filename of your default
-controllers:
+notamment, metez à jour cette ligne qui contient the le nom du fichier de votre controleur par défaut:
+
 ``"defaultControllers":   ["akai_apc.ctlr"],``

@@ -18,8 +18,8 @@ Si vous débutez avec Jack et Luppp, voici un exemple en vidéo qui vous montre
 à quoi ressemble une session d’utilisation typique de boucles dans Luppp :
 https://www.youtube.com/watch?v=R6WiWDDKRCQ
 
-Avant de pouvoir enregistrer, il faut connecter les sources audio à l’entrée principale
-(master_in) de Luppp et connecter les sorties principales (master_left et master_right)
+Avant de pouvoir enregistrer, il faut connecter les sources audio aux entrées principales
+(master_in_left et master_in_right) de Luppp et connecter les sorties principales (master_left et master_right)
 aux sorties du système (playback_1  et playback_2). Voir la capture d’écran des connexions :
 
 .. image:: img/luppp/luppp_jack_connections.png
@@ -76,7 +76,7 @@ Ils affichent également le statut correct d'un clip, s'il est en train d'enregi
 En bas, il y a un chariot qui ajuste le volume de la piste mixé dans le master.
 Sur la gauche des chariots, se trouvent certains contrôles que nous décrirons dans les sections suivantes.
 
-.. Tip::
+.. Astuce::
 	Vous pouvez utiliser votre clavier alpha-numérique pour contrôler les clips !
 	La première scène est représentée par les nombres de 1 à 8, le 9 déclenche la première scène.
 	Les lignes suivantes sont branchées sur les scènes sous-jacentes. Essayez !
@@ -127,43 +127,37 @@ voir comment ceci fonctionne, regardez ces vidéos (en anglais) :
 * Explication : https://www.youtube.com/watch?v=-AwtMUeBc9w
 * Démonstration par l'exemple : https://www.youtube.com/watch?v=bPJQs6w2XQc
 
-Input Section
-=============
+La Section Input
+================
 
-At the beginning of this tutorial we connected a audio source to Luppps master_in. 
-You can input several different sources, or any output of a mixer or what ever you can 
-imagine! In the top right corner of the GUI you can see the Luppp Input Section.
+Au début de ce tutoriel nous avons connecté une source audio aux master_in de Luppp. 
+Vous pouvez connecter plusieurs entrées de differentes sources, ou chaque sorties d'un mixeur ou tout ce que voupez imaginez! 
+Dans le coin droit supérieur de l'interface, vous pouvez voir la section Input de Luppp.
 
-.. Tip ::
-	Luppp only has a mono input. If you want to connect a stereo source like a synthesizer, 
-	there are severel possibilities. In the most cases its enough to connect just one side since 
-	there are equal or similar. If you need both sides, consider a mixer to mix them together.
-	But there might be some trouble if you simply connect both to the input port.
-
-Here you have a meter, and a fader to adjust the volume of the input. The knobs below
-do the following:
+Ici, vous avez un vu-mètre, et un fader pour ajuster le volume des entrées. Les boutons dessous
+font les choses suivantes:
 
 .. image:: img/luppp/luppp_inputsection.png
    :align: left
 
-* Snd-Button activates the Send (Knob above sets the amount, eg Reverb)
-* Key-Button sets the input as Key-Signal for Sidechaining 
-* Knob above the Key-Button how much of the input goes to the Sidechain-Signal
-* Mix-Button activates the routing of the input to the master outs of Luppp
-* Knob above the Mix-Button sets amount of the input on the master outs.
+* Le bouton "Snd" active l'envoi (Le bouton ci-dessus dose la quantité, comme la réverb')
+* Le bouton "Key" défini les entrées comme signal source pour le chaînage latéral
+* Le bouton au dessus du bouton "Key" règle la quantité de signal pour le chaînage latéral
+* Le bouton "Mix" active le routing des entrées aux sorties principales de Luppp
+* Le bouton au dessus du bouton "Mix" règle la quantité de signal des entrées dans les sorties principales.
 
-So you have great possibilities here: a little reverb on the input, using a 
-input for a special sidechaining key? Easy! You can monitor what you play just with 
-Luppp and adjust the recorded volume to fit with the other tracks.
+Vous avez donc de grandes possibilités: une petite réverb' sur les entrées, utiliser des 
+entrées pour un chaînage latéral special? Facile! Vous pouvez surveiller ce que vous jouez avec
+Luppp et adjuster le volume enregistré pour l'adapter aux autres pistes.
 
-Master Section
-==============
+La Section Master
+=================
 
 .. image:: img/luppp/luppp_master_section.png
    :align: right
 
-Lets take a look at the last part of the GUI: the master section. The function of the most elements
-are quite obvious, so i will only explain them in short:
+Jetez un oeil à la dernière partie de l'interface: la section master. Les fonctions de la plupart des éléments
+sont vraiment évidents, donc je les expliquerai rapidement :
 
 * the green, yellow, orange and red square show the beat (from bottom to top)
 * the Stop/Play button stops or restarts the transport

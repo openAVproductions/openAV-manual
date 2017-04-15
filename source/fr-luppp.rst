@@ -171,13 +171,14 @@ Configuration
 =============
 
 Luppp fournit quelques fonctionnalités de configuration dans un fichier se trouvant 
-dans le répertoire de configuration de l'utilisateur . 
+dans le répertoire de configuration de l'utilisateur. 
 Il permet de mettre des contrôleurs par défaut en les ajoutant 
-à la liste des controleurs par défaut, comme indiqué ci dessous. Notez bien que plusieurs
+à la liste des contrôleurs par défaut, comme indiqué ci dessous. Notez bien que plusieurs
 controleurs peuvent être ajoutés, listés comme des chaines séparées avec une virgule intercalée entre eux.
 
 Le fichier à éditer est:
 ``~/.config/openAV/luppp/luppp.prfs``
-notamment, metez à jour cette ligne qui contient the le nom du fichier de votre controleur par défaut:
+
+notamment, mettez à jour cette ligne qui contient the le nom du fichier de votre contrôleur par défaut:
 
 ``"defaultControllers":   ["akai_apc.ctlr"],``

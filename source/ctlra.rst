@@ -58,9 +58,7 @@ A graphical summary of what Ctlra achieves:
 ____
 
 .. image:: img/ctlra/ctlra_with_without.png
-:
-align:
-center
+   :align: center
 ____
 
 
@@ -205,7 +203,7 @@ Writing Feedback Mappings
 Feedback to the device (LEDs, motorized faders etc), is done approximately
 the same as the input mappings as described in `Simply A Single Event`_
 above. The main difference is that now we read a value (known as the
-		"state") from the DAW (is Record enabled?) and want to show that value on
+"state") from the DAW (is Record enabled?) and want to show that value on
 the hardware.
 
 First of all, we must decide on the state. Then we must write that state
@@ -223,3 +221,7 @@ Ctlra is a library to enable powerful interactions beween software and
 hardware controllers. It is designed to allow "techie-musicians" customize
 and change the mappings from the physical controls to the software in the
 way that lets them do the coolest and most crazy stuff!
+
+PS: If you're not a techie musician, check if there is a local computer
+club, or community who are interested in programming - it is likely that
+they could help you if you find the mappings too technical.

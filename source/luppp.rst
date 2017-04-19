@@ -76,7 +76,7 @@ Its pretty useful to look at it when recording other clips in the same row.
 The next thing to come are the clips. You can give them a name with a right
 click, too. They also show the currect status of a clip, if its recording,
 playing or empty. On the buttom is a fader, which adjust the volume of the
-track mixed to the master. On the left side of the faders are some controls
+track mixed to the master. Around the faders there are some controls
 we look at in the next sections.
 
 .. Tip::
@@ -85,6 +85,27 @@ we look at in the next sections.
 	rows are binded to the subjacent scenes. Just try!
 
 -----
+
+Panning
+=======
+
+Before we get into the world of processing in Luppp, lets look on a pretty
+basic but powerful feature. It is introduced by version 1.1.1: The Panning.
+The knob above the fader of each track can split the signal to the two master 
+channels as you want. So you have the possibility to give each channel a place
+in the master mix. This is pretty simple, so lets move on...
+
+FX Section
+==========
+
+The first controls under the clip section ist the effect section. In your 
+jack connection manager of your choice you will notice the Send_track_X and
+Return_track_X ports. Connecting the send to the input of a plugin and the 
+output back to the returns of Luppp will send the audio through this plugin. 
+To enable the processing, click on the yellow FX Button. With the knob you can
+adjust the volume of the effect.
+This feature gives you endless possibilities. You could add as many effects as
+you want in any order. Just be creative!
 
 Reverb Send
 ===========

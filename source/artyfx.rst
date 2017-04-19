@@ -5,16 +5,16 @@
 ArtyFX
 ########
 
-ArtyFX is suite of audio effects, which can be used standalone but is also
-built into many of OpenAV's more complex projects like Fabla2, Sorcer and
-Luppp. Each effect can be used individually as an LV2 plugin.
+ArtyFX ist eine Sammlung von Audio Effekten, die sowohl einzeln verwendet
+werden können, als auch in vielen komplexeren OpenAV-Projekte wie Fabla2, 
+Sorcer und Luppp eingebaut sind. Jeder Effekt kann individuell als LV2-plugin
+verwendet werden.
 
-ArtyFX contains many different plugins - all of the "classic" effects like
-reverbs, delays and filters are present. The following sections detail each
-plugin individually, showing how it can be used, and making some
-suggestions on best practices.
+Zu ArtyFX gehören viele verschiedene Plugins - alle "klassischen" Effekte wie 
+Hall, Echo und Filter sind enthalten. Die folgenden Abschnitte beschreiben 
+jedes Plugin im Detail und beschrieben die Verwendung.
 
-Do you have a plugin suggestion for ArtyFX? Get in contact with OpenAV!
+Hast du neue Vorschläge für ArtyFX? Kontaktiere OpenAV!
 
 
 ____
@@ -26,13 +26,12 @@ ____
 Bitta
 =======
 
-Bitta is a bit-crusher plugin. Bit crushing reduces the
-:abbr:`bit-depth(The number of bits used to represent the audio. The
-resolution of the vertical axis of an audio waveform)` of the audio.
-Because it depends on the volume of the incoming signal, be careful when
-setting the "crush" dial.
+Bitta ist ein Bitcrusher-Plugin. Der Effekt reduziert die
+:abbr:`Bittiefe(Die Auflösung der Lautstärke eines Audio-Signals)` des 
+Signals. Da die Verzerrung von der Lautstärke des Eingangssignales 
+abhängig ist, sollte der "Crush"-Regler vorsichtig verwendet werden.
 
-* Crush : Changes the number of bits used to rush the audio.
+* Crush : Ändert die Zahl der Bits für den Effekt.
 
 ____
 
@@ -44,18 +43,20 @@ ____
 Della
 =======
 
-Della is a BPM adjusting delay, with controls for feedback and delay volume.
+Della ist ein BPM-abhängiges Echo, mit einstellbarem Feedback und Echo 
+Lautstärke.
 
-* Feedback controls the amount of the signal fed back into the delay line:
-  turn it up to have that reggae-crazy-dub-echo that goes on forever!
+* "Feedback" reguliert die Lautstärke des Signals, das zurück zum Echo 
+  geführt wird. Dreh es auf um dieses verrückte Reaggae-Dub-Echo zu erzeugen,
+  das für immer anhält!
 
-* Volume changes the amount of the delayed signal you hear: useful to keep
-  the delays in the background of a track.
+* "Volume" ändert die Lautstärke des verzögerten Signals: Das ist nützlich,
+  um das Echo im Hintergrund der Spur zu halten.
 
-* Time changes the delay-length: note that this is "quantized" to multiples
-  of the BPM, so it "jumps" between a 1/8th note, 1/4 note, 1/2 note and
-  whole note duration. Della picks up the BPM from the host program: so if
-  you change tempo it will continue to stay in time!
+* "Time" ändert die Länge des Echos in Abhängigkeit zu den BPMs. Es springt
+  also zwischen der Länge von 1/8, 1/4, 1/2 und einer ganzen Note. Della nimmt
+  die BPM vom Plugin-Host. Dadurch bleibt das Echo synchronisiert, wenn man das 
+  Tempo ändert.
 
 ____
 

@@ -5,9 +5,9 @@
 ArtyFX
 ########
 
-ArtyFX ist eine Sammlung von Audio Effekten, die sowohl einzeln verwendet
-werden können, als auch in vielen komplexeren OpenAV-Projekte wie Fabla2, 
-Sorcer und Luppp eingebaut sind. Jeder Effekt kann individuell als LV2-plugin
+ArtyFX ist eine Sammlung von Audio Effekten. Diese können sowohl einzeln verwendet
+werden, sind aber auch in vielen komplexeren OpenAV-Projekten wie Fabla2, 
+Sorcer und Luppp eingebaut. Jeder Effekt kann individuell als LV2-plugin
 verwendet werden.
 
 Zu ArtyFX gehören viele verschiedene Plugins - alle "klassischen" Effekte wie 
@@ -43,8 +43,7 @@ ____
 Della
 =======
 
-Della ist ein BPM-abhängiges Echo, mit einstellbarem Feedback und Echo 
-Lautstärke.
+Della ist ein BPM-abhängiges Echo, einstellbar sind Feedback und Echo-Lautstärke.
 
 * "Feedback" reguliert die Lautstärke des Signals, das zurück zum Echo 
   geführt wird. Dreh es auf um dieses verrückte Reaggae-Dub-Echo zu erzeugen,
@@ -67,20 +66,21 @@ ____
 
 Ducka
 =======
-Ducka is a side- chain envelope plugin: it is very useful for creating
-"pumping" basslines as often found in minimal house music. The plugin works
-by analysing the volume of a sidechain input, and changing the volume of a
-seperate stereo track, based on the amplitude of the sidechain input.
 
-* Threshold sets the level that the input audio must reach before the
-  stereo track gets reduced.
+Ducka ist ein Sidechain Hüllkurven Plugin: Es ist sehr nützlich um 
+"pumpende" Bassläufe zu erstellen, wie sie oft in minimaler House-Musik
+gefunden werden. Das Plugin analysiert die Lautstärke des Sidechain-Eingangs
+und verändert davon abhängig die Lautstärke des Stereo-Signals.
 
-* The drop controls the amount of volume reduction that is performed.
+* "Threshold" setzt die notwendige Lautstärke des Signals, die erreicht sein 
+  muss, bevor das Stereo-Signal reduziert wird.
 
-* Time controls the amount of time it take before the stereo track is faded
-  in again. Note that this control is BPM dependant, and the center is
-  directly on the off- beats. A setting of half (its default) is generally
-  musical :)
+* "Drop" kontrolliert die Stärke der Reduzierung.
+
+* "Time" stellt die Zeit ein, die das Stereo-Signal benötigt um wieder 
+  einzufaden. Beachte, dass die Einstellung BPM-abhängig ist. Das Einfaden 
+  ist direkt auf den Offbeats. Die Einstellung auf 1/2 (der Standard) ist 
+  normalerweise musikalisch.
 
 ____
 
@@ -92,14 +92,14 @@ ____
 Driva
 =======
 
-Driva is a multi-distortion unit capable of the most mean and gritty distortions.
+Driva ist eine vielfältige Verzerrungseinheit, mit denen man die fiesesten 
+Verzerrungen erzeugen kann.
 
-* Tone : Click the Tone button, a list of different distortion models are
-  available. Just click the desired distortion, and keep rocking out.
-  Cancel at the bottom quits the tone-change view.
+* "Tone" : Klicke auf den Tone-Button. Dir steht eine Liste mit verschiedenen 
+  Verzerrungsmustern zur Auswahl. Klicke einfach auf die gewünschte Verzerrung
+  und leg los! Um die Toneinstellungen zu verlassen, verwende den "Cancel"-Button.
 
-* Amount just cranks up the gain / distortion quanitity. Use at your own
-  peril!
+* "Amount" dreht die Verstärkung / Verzerrung auf. Benutzung auf eigenes Risiko!
 
 
 ____

@@ -48,19 +48,21 @@ Standardwert ist 120).
 .. image:: img/luppp/luppp_scenes.png
 	:align: right
 
-Scenes 
+Szenen
 ======
 
-A pretty important concept of Luppp are the scenes. On each track you can
-just play one clip at the same time. In the master section of Luppp you can
-see a list of Scenes. You can launch a scene by clicking on
-it. When you do this, all clips in this row start at the same time.
+Ein sehr wichtiges Konzezt von Luppp sind die Szenen. Auf jedem Track kann nur
+ein Clip zur gleichen Zeit agbespielt werden. Im Masterbereich von Luppp
+befindet sich die Liste der Szenen. Eine Szene kann durch Klicken auf den Namen
+gestartet werden, wodurch alle Clips in dieser Reihe gleichzeitig gestartet
+werden.
 
 .. Tip::
-   When you use clips with a length higher than one bar, be careful to
-   start the recording at the same time when other clips in the row are
-   starting. If not, launching a scene will create a little mess ;)
 
+   Wenn du Clips mit einer Länge von mehr als einem Takt verwendest, achte
+   darauf, die Aufnahme zur gleichen Zeit mit dem Start der anderen Clips in
+   der Reihe zu starten. Ansonsten kann das Starten einer Szene ein bisschen
+   chaotisch werden ;)
 
 -----
 

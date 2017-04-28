@@ -199,16 +199,18 @@ are quite obvious, so i will only explain them in short:
 * the return knob adjusts the volume of the returned audio (eg reverb)
 * the fader adjusts the master volume
 
-Configuration
+Konfiguration
 =============
 
-Luppp provides some configuration features in a file under the user's
-config directory. It allows setting some options apart from the GUI.
+Über eine Datei im Konfigurationsordner des Benutzers stellt Luppp
+Konfigurationseinstellungen bereit. Hierüber können ein paar Einstellungen
+geändert werden, die nicht über die GUI zu erreichen sind.
 
-The file to edit is ``~/.config/openAV/luppp/luppp.prfs`` which uses the
-`JSON <https://en.wikipedia.org/wiki/Json>`_ format.
+Diese Konfigurationsdatei findet sich unter
+``~/.config/openAV/luppp/luppp.prfs`` und benutzt das `JSON
+<https://en.wikipedia.org/wiki/Json>`_-Format.
 
-The default content looks like this::
+Die Voreinstellungen sehen wie folgt aus::
 
     {
         "saveDirectory":                "luppp",
@@ -217,41 +219,43 @@ The default content looks like this::
         "enablePerTrackSendReturns":    0
     }
 
-Save Directory
+Speicherort
 --------------
 
-The option ``saveDirectory`` defines the directory where sessions are stored.
-The path is relative to the user’s home directory and defaults to ``luppp``::
+Die Option ``saveDirectory`` definiert den Ordner, in dem Sessions gespeichert
+werden. Der Pfad ist relativ zum Benutzerverzeichnis und ist standardmäßig
+``luppp``::
 
     "saveDirectory": "luppp"
 
-Resample Quality
-----------------
+Qualität der Abtastratenkonvertierung
+-------------------------------------
 
-The quality for resampling can be defined with the ``resampleQuality`` key.
-Possible values are:
+Die Qualität der Abtastratenkonvertierung kann über die Einstellung
+``resampleQuality`` definiert werden. Mögliche Werte sind
 
 * 0 = LINEAR
 * 1 = SINC_FASTEST
 * 2 = SINC_BEST
 
-The default value is ``SINC_FASTEST`` (``1``)::
+Der Standardwert ist ``SINC_FASTEST`` (``1``)::
 
     "resampleQuality": 1,
 
-Default Controllers
+Standard-Controller
 -------------------
 
-The ``defaultControllers`` option allows to specify which controllers are
-loading automatically at startup. Note that multiple controllers can be added,
-listed as seperate strings with a comma inbetween::
+Mit der Option ``defaultControllers`` können Controller definiert werden, die
+beim Programmstart automatisch geladen werden. Mehrere Controller können mit
+Komma getrennt ngegeben werden::
 
     "defaultControllers": ["akai_apc.ctlr", "launchpad_s.ctlr"]
 
-Enable Per Track Send/Returns
------------------------------
+Send/Returns pro Track
+----------------------
 
-The option ``enablePerTrackSendReturns`` controls if send/return channels will
-be enabled for each track. A value of ``0`` disabled, ``1`` enables it::
+Die Einstellung ``enablePerTrackSendReturns`` kontrolliert, ob
+Send/Return-Kanäle für jeden Track bereitgestellt werden sollen.
+Ein Wert von ``0`` deaktiviert, ``1`` aktiviert dies::
 
     "enablePerTrackSendReturns": 0

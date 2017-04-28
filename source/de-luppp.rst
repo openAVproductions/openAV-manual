@@ -96,11 +96,11 @@ weitere Regler, die wir uns im nächsten Abschnitt ansehen werden.
 Panning
 =======
 
-Before we get into the world of processing in Luppp, lets look on a pretty
-basic but powerful feature. It is introduced by version 1.1.1: The Panning.
-The knob above the fader of each track can split the signal to the two master 
-channels as you want. So you have the possibility to give each channel a place
-in the master mix. This is pretty simple, so lets move on...
+Bevor wir uns der Welt der Bearbeitung in Lupp zuwenden, schauen wir uns eine
+einfache, aber wirkungsvolle Funktion an. Es wurde in Version 1.1.1 eingeführt:
+das Panning. Der Regler über dem Fader jeden Tracks kann das Signal zum
+Masterkanal splitten. Du hast also die Möglichkeit, jedem Kanal einen Platz im
+Mix zu geben. Das ist sehr simple, gehen wir also weiter …
 
 FX Section
 ==========

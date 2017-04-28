@@ -203,13 +203,55 @@ Configuration
 =============
 
 Luppp provides some configuration features in a file under the user's
-config directory. It allows setting default controllers by adding them
-to the default controllers list, as shown below. Note that multiple
-controllers can be added, listed as seperate strings with a comma
-inbetween.
+config directory. It allows setting some options apart from the GUI.
 
-The file to edit is:
-``~/.config/openAV/luppp/luppp.prfs``
-in particular, update this line to contain the filename of your default
-controllers:
-``"defaultControllers":   ["akai_apc.ctlr"],``
+The file to edit is ``~/.config/openAV/luppp/luppp.prfs`` which uses the
+`JSON <https://en.wikipedia.org/wiki/Json>`_ format.
+
+The default content looks like this::
+
+    {
+        "saveDirectory":                "luppp",
+        "resampleQuality":              1,
+        "defaultControllers":           [],
+        "enablePerTrackSendReturns":    0
+    }
+
+Save Directory
+--------------
+
+The option ``saveDirectory`` defines the directory where sessions are stored.
+The path is relative to the user’s home directory and defaults to ``luppp``::
+
+    "saveDirectory": "luppp"
+
+Resample Quality
+----------------
+
+The quality for resampling can be defined with the ``resampleQuality`` key.
+Possible values are:
+
+* 0 = LINEAR
+* 1 = SINC_FASTEST
+* 2 = SINC_BEST
+
+The default value is ``SINC_FASTEST`` (``1``)::
+
+    "resampleQuality": 1,
+
+Default Controllers
+-------------------
+
+The ``defaultControllers`` option allows to specify which controllers are
+loading automatically at startup. Note that multiple controllers can be added,
+listed as seperate strings with a comma inbetween::
+
+    "defaultControllers": ["akai_apc.ctlr", "launchpad_s.ctlr"]
+
+Enable Per Track Send/Returns
+-----------------------------
+
+The option ``enablePerTrackSendReturns`` controls if send/return channels will
+be enabled for each track. A value of ``0`` disabled, ``1`` enables it::
+
+    "enablePerTrackSendReturns": 0

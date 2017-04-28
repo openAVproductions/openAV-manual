@@ -72,21 +72,24 @@ werden.
 Tracks
 ======
 
-All tracks of Luppp have some controllers to do incredible thinks. I will
-walk through them from top to bottom. At first, there is the name of the
-track. You can change it by right-clicking on it. Below this,
-there is a circle showing the progress of the playing loop in the track.
-It's pretty useful to look at it when recording other clips in the same row.
-The next thing to come are the clips. You can give them a name with a right
-click, too. They also show the currect status of a clip, if it's recording,
-playing or empty. On the buttom is a fader, which adjust the volume of the
-track mixed to the master. Around the faders there are some controls
-we look at in the next sections.
+Alle Tracks in Luppp haben ein paar Regler, um unglaubliche Dinge zu tun. Wir
+gehen diese nun von oben nach unten durch. Ganz oben befindet sich der Name des
+Tracks. Durch Rechtsklick kannst du diesen ändern. Darunter befindet sich ein
+Kreis, der den Fortschritt des momentan abgespielten Loops in diesem Track
+anzeigt. Bei der Aufnahme von weiteren Clips in der selben Reihe ist es sehr
+hilfreich, den Fortschritt im Auge zu behalten. Als nächstes kommen die Clips.
+Auch hier kannst du durch Rechtsklick einen Namen vergeben. Außerdem wird hier
+für jeden Clips der momentane Status angezeigt, ob er gerade aufnimmt, abspielt
+oder leer ist. Unten befindet sich ein Schieberegler (Fader), mit dem die
+Lautstärke des Tracks angepasst werden kann. Um den Fader herum befinden sich
+weitere Regler, die wir uns im nächsten Abschnitt ansehen werden.
 
 .. Tip::
-	You can use your keyboard, to control the clips! The first scene
-	are the numbers from 1-8, 9 triggers the first scene. The following
-	rows are binded to the subjacent scenes. Just try!
+
+    Du kannst die Tastatur verwenden, um die Clips zu steuern. Die Clips der
+    ersten Szene haben die Tasten 1 – 8, 9 löst die Szene selbst aus. Die
+    darunterliegenden Tastenreihen steuern die folgenden Szenen. Probier’ es
+    aus!
 
 -----
 

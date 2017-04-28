@@ -102,17 +102,18 @@ das Panning. Der Regler über dem Fader jeden Tracks kann das Signal zum
 Masterkanal splitten. Du hast also die Möglichkeit, jedem Kanal einen Platz im
 Mix zu geben. Das ist sehr simple, gehen wir also weiter …
 
-FX Section
+FX-Bereich
 ==========
 
-The first controls under the clip section ist the effect section. In your 
-jack connection manager of your choice you will notice the Send_track_X and
-Return_track_X ports. Connecting the send to the input of a plugin and the 
-output back to the returns of Luppp will send the audio through this plugin. 
-To enable the processing, click on the yellow FX Button. With the knob you can
-adjust the volume of the effect.
-This feature gives you endless possibilities. You could add as many effects as
-you want in any order. Just be creative!
+Die Regler direkt unter dem Clip-Bereich sind der Effektbereich. In dem
+JACK-Verbindungsmanager deiner Wahl werden dir die „Send_track_X“- und
+„Return_track_X“-Anschlüsse aufgefallen sein. Die Verbindung des
+„send“-Anschlusses mit dem Eingang eines Plugins und des Ausganges mit dem
+„return“-Anschluss von Luppp leitet das Audiosignal durch dieses Plugin. Um die
+Bearbeitung zu aktivieren, klicke auf die gelbe FX-Schaltfläche. Mit dem
+Drehregler kannst du die Lautstärke des Effekts regeln. Diese Funktion gibt dir
+endlose möglichkeiten. Du kannst beliebig viele Effekte hinzufügen, in der
+Reihenfolge deiner Wahl. Sei einfach kreativ!
 
 Reverb Send
 ===========

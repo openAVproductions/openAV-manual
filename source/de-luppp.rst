@@ -115,16 +115,18 @@ Drehregler kannst du die Lautstärke des Effekts regeln. Diese Funktion gibt dir
 endlose möglichkeiten. Du kannst beliebig viele Effekte hinzufügen, in der
 Reihenfolge deiner Wahl. Sei einfach kreativ!
 
-Reverb Send
-===========
+Halleinbindung
+==============
 
-This feature gives you the great possibility to simply add some reverb on a
-track. Before we can try, we need to connect Luppps send_out to a reverb of
-our choice (eg :ref:`roomy`) and the outputs of the reverb back to Luppps
-master_returns. If it's done, we can enable the reverb for each track with
-the Snd-Button and adjust the amount of reverb with the above knob. 
+Diese Funktion gibt dir die großartige Möglichkeit, leicht etwas Hall zu einen
+Track hinzuzufügen. Bevor wir dies ausprobieren können, müssen wir Luppps
+„send_out“-Anschluss mit einem Halleffekt verbinden (z. B. :ref:`roomy`) und
+die Ausgänge des Halls an die „master_return”-Anschlüsse von Luppp. Ist das
+erledigt, können wir den Hall für jeden Track mittels der „Snd”-Schaltfläche
+aktivieren. Mit dem Drehregler darüber kann die Stärke des Halls bestimmt
+werden.
 
-The connections for a reverb send are as follows:
+Die Verbindungen für einen Halleffekt sehen wie folgt aus:
 
 .. image:: img/luppp/luppp_reverb_send_connections.png
    :align: center
@@ -132,12 +134,13 @@ The connections for a reverb send are as follows:
 .. image:: img/luppp/luppp_reverb_roomy.png
    :align: right
 
-And the recommended Roomy settings are shown here - the most important part
-is to set the Dry/Wet dial to 100% Wet, as then only the reverb is output,
-and the original signal is totally muted. Given that Luppp is already
-outputting the original signal, we do not want the reverb to also do that!
+Die empfohlenen :ref:`roomy`-Einstellungen sind in diesem Screenshot
+abgebildet: Am wichtigsten ist es, den „Dry/Wet“-Regler auf „100% Wet“ zu
+stellen, da dadurch nur der Hall ohne das originale Signal ausgegeben wird. Da
+das originale Audiosignal bereits von Luppp ausgegeben wird, wollen wir nicht,
+dass der Reverb dies noch zusätzlich tut!
 
-There is a video about this topic, too: https://www.youtube.com/watch?v=wLy9oG_WpHg
+Zu diesem Thema gibt es auch ein video: https://www.youtube.com/watch?v=wLy9oG_WpHg
 
 -----
 

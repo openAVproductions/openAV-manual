@@ -13,36 +13,37 @@ Audioein- und -ausgabe eingerichtet wird. Außerdem werden die Konzepte von
 Szenen und Clips vorgestellt, sodass die Kreativität für Live-Auftritte optimal
 genutzt werden kann.
 
-Luppp and JACK
+Luppp und JACK
 ==============
 
-If you are totally new to JACK and Luppp, this is an example video that
-shows what a typical Luppp looping session looks like:
+Wenn dir Luppp und Jack komplett neu sind, schaue dir dieses Beispielvideo an,
+das eine typische Looping-Session mit Luppp zeigt:
 https://www.youtube.com/watch?v=R6WiWDDKRCQ
 
-Before we can record we need to connect some audio source to Luppps
-master_in and connect master_right and master_left to the output jacks
-of the system. See screenshot of the connections:
+Bevor wir Loops aufnehmen können, müssen wir eine Audioquelle mit Luppps
+“master_in”-Anschluss verbinden. Außerdem müssen “master_right” und
+“master_left” mit den Systemanschlüssen (Soundkarte oder Audiointerface)
+verbunden werden. Der folgende Screenshot zeigt die Verbindungen:
 
 .. image:: img/luppp/luppp_jack_connections.png
    :align: center
 
-Next we will take a look at the Luppp interface, which may seem complex at
-the start, but really it's quite simple once we understand what each part of
-the UI does.
+Als nächstes schauen wir uns die Oberfläche von Luppp an. Diese mag auf den
+ersten Blick komplex wirken, ist aber wirklich einfach, wenn man die einzelnen
+Bereiche ersteinmal versteht.
 
 .. image:: img/luppp/luppp_interface.png
    :align: left
 
-You can see 8 Tracks with each 10 Clips. To check if your setup work
-just play your audio source and you should see the amplitude of the audio
-on the top right meter. If this works, you are ready to go!
+Du siehst acht Tracks mit jeweils zehn Clips. Um zu testen, ob dein Audiosetup
+funktioniert, spiele deine Audioquelle ab und du solltest die Amplitude auf der
+Anzeige ganz oben rechts sehen. Wenn das klappt, kannst du loslegen!
 
-Now click on a Clip to start recording and click again to start looping!
-All actions of Luppp are synced to the Beat, which is indicated by the four
-squares on the bottom right of the window. You can change the tempo by
-turning the knob with the BPM number (which should be 120 by default).
-
+Nun klicke auf einen Clip, um die Aufnahme zu starten und klicke erneut, um das
+Aufgenommene zu loopen. Alle Aktionen in Luppp werden mit dem Takt
+synchronisiert. Dieser wird durch die vier Quadrate unten rechts angezeigt.  Du
+kannst das Tempo durch Drehen des Reglers mit der BPM-Nummer ändern (der
+Standardwert ist 120).
 
 .. image:: img/luppp/luppp_scenes.png
 	:align: right

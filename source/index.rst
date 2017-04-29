@@ -12,7 +12,7 @@ If you are a musician, artist or coder - all audiences are catered for.
 .. note:: This manual is still a work-in-progress. If you want to help,
 	please `contact OpenAV`_!
 
-This manual introduces each of the OpenAV projects in a seperate chapter.
+This manual introduces each of the OpenAV projects in a separate chapter.
 After each project has been introduced individually, there are tutorials on
 how to combine them into a coherent whole.
 

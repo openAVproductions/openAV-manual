@@ -1,0 +1,12 @@
+Translation of openAV manual from english to french
+
+* TODO artyfx.rst
+* TODO auxbus.rst
+* TODO [#A] beginner.rst
+* TODO fabla2.rst
+* TODO fabla.rst
+* TODO index.rst
+* TODO luppp.rst
+* TODO [#C] programming.rst
+* TODO sorcer.rst
+* TODO README

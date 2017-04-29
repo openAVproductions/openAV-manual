@@ -23,7 +23,7 @@ Select one of the headings to get started!
 .. toctree::
    :maxdepth: 1
 
-   beginner 
+   fr-beginner
    fr-artyfx
    fabla 
    fr-luppp

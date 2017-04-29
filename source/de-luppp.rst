@@ -147,21 +147,23 @@ Zu diesem Thema gibt es auch ein video: https://www.youtube.com/watch?v=wLy9oG_W
 Sidechaining
 ============
 
-Using Luppp it's very easy to use sidechaining, for example to create some
-house bass lines.. It's a pretty simple concept: you use one audio signal to
-control the processing of another signal. This processing could be a
-compressor or an enveloper (eg :ref:`ducka`). So, how to use it? At first
-we again need to do some connections. Luppps sidechain_key needs to be
-connected to a sidechain input and Luppps sidechain_signal needs to be
-connected to the regular audio inputs of the Ducka plugin.
-Send the outputs of the plugins to the master outputs.
+Luppp macht die Verwendung von Sidechaining sehr einfach; zum Beispiel das
+Erstellen einer House-Bassline … Das Konzezpt ist einfach: Du verwendest ein
+Audiosignal, um die Manipulation eines anderen Signals zu steuern. Als
+Manipulation könnte ein Kompressor oder ein Enveloper (z. B. :ref:`ducka`) zum
+Einsatz kommen. Wie wird Sidechaining nun verwendet? Zuerst müssen wir wieder
+ein paar Verbindungen herstellen. Luppps „sidechain_key“-Anschluss muss an den
+Sidechain-Eingang und Luppps „sidechain_signal“-Ausgang an den regulären
+Audioeingang von :ref:`ducka` angeschlossen werden. Verbinde außerdem die
+Ausgänge des Plugins mit den „return“-Anschlüssen von Luppp.
 
-Back to Luppp. On one track you need to enable the Key-Button. This way the
-output of the track is the trigger for the sidechain effect. Now you can
-send each track with the knob above the Key-Button to the plugin. If you
-want to see how it's works, watch these videos: 
+Zurück zu Luppp. Bei einem Track musst du nun die „Key“-Schaltfläche
+aktivieren. Dadurch wird die Ausgabe des Tracks zum Auslöser für den
+Sidechain-Effekt. Mit dem Regler über der „Key“-Schaltfläche kannst du nun
+jeden Track an das Plugin senden. Wenn du dir ansehen willst, wie das
+funktioniert, schaue dir diese Videos an:
 
-* Explanation: https://www.youtube.com/watch?v=-AwtMUeBc9w
+* Erklärung: https://www.youtube.com/watch?v=-AwtMUeBc9w
 * Showcase: https://www.youtube.com/watch?v=bPJQs6w2XQc
 
 Input Section

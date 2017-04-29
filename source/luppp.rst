@@ -68,7 +68,7 @@ it. When you do this, all clips in this row start at the same time.
 Tracks
 ======
 
-All tracks of Luppp have some controllers to do incredible thinks. I will
+All tracks of Luppp have some controllers to do incredible things. I will
 walk through them from top to bottom. At first, there is the name of the
 track. You can change it by right-clicking on it. Below this,
 there is a circle showing the progress of the playing loop in the track.
@@ -89,17 +89,17 @@ we look at in the next sections.
 Panning
 =======
 
-Before we get into the world of processing in Luppp, lets look on a pretty
+Before we get into the world of processing in Luppp, let’s look on a pretty
 basic but powerful feature. It is introduced by version 1.1.1: The Panning.
 The knob above the fader of each track can split the signal to the two master 
 channels as you want. So you have the possibility to give each channel a place
-in the master mix. This is pretty simple, so lets move on...
+in the master mix. This is pretty simple, so let’s move on …
 
 FX Section
 ==========
 
-The first controls under the clip section ist the effect section. In your 
-jack connection manager of your choice you will notice the Send_track_X and
+The first controls below the clip section are the effect section. In your 
+JACK connection manager of your choice you will notice the Send_track_X and
 Return_track_X ports. Connecting the send to the input of a plugin and the 
 output back to the returns of Luppp will send the audio through this plugin. 
 To enable the processing, click on the yellow FX Button. With the knob you can
@@ -112,7 +112,7 @@ Reverb Send
 
 This feature gives you the great possibility to simply add some reverb on a
 track. Before we can try, we need to connect Luppps send_out to a reverb of
-our choice (eg :ref:`roomy`) and the outputs of the reverb back to Luppps
+our choice (e. g. :ref:`roomy`) and the outputs of the reverb back to Luppps
 master_returns. If it's done, we can enable the reverb for each track with
 the Snd-Button and adjust the amount of reverb with the above knob. 
 
@@ -139,11 +139,11 @@ Sidechaining
 Using Luppp it's very easy to use sidechaining, for example to create some
 house bass lines.. It's a pretty simple concept: you use one audio signal to
 control the processing of another signal. This processing could be a
-compressor or an enveloper (eg :ref:`ducka`). So, how to use it? At first
+compressor or an enveloper (e. g. :ref:`ducka`). So, how to use it? At first
 we again need to do some connections. Luppps sidechain_key needs to be
 connected to a sidechain input and Luppps sidechain_signal needs to be
-connected to the regular audio inputs of the Ducka plugin.
-Send the outputs of the plugins to the master outputs.
+connected to the regular audio inputs of the :ref:`ducka` plugin.
+Send the outputs of the plugins to the master returns.
 
 Back to Luppp. On one track you need to enable the Key-Button. This way the
 output of the track is the trigger for the sidechain effect. Now you can
@@ -156,7 +156,7 @@ want to see how it's works, watch these videos:
 Input Section
 =============
 
-At the beginning of this tutorial we connected a audio source to Luppps master_in. 
+At the beginning of this tutorial we connected an audio source to Luppps master_in. 
 You can input several different sources, or any output of a mixer or what ever you can 
 imagine! In the top right corner of the GUI you can see the Luppp Input Section.
 
@@ -172,13 +172,14 @@ do the following:
 .. image:: img/luppp/luppp_inputsection.png
    :align: left
 
-* Snd-Button activates the Send (Knob above sets the amount, eg Reverb)
+* Snd-Button activates the Send
+* Knob above sets the amount, e. g. Reverb
 * Key-Button sets the input as Key-Signal for Sidechaining 
 * Knob above the Key-Button how much of the input goes to the Sidechain-Signal
 * Mix-Button activates the routing of the input to the master outs of Luppp
 * Knob above the Mix-Button sets amount of the input on the master outs.
 
-So you have great possibilities here: a little reverb on the input, using a 
+So you have great possibilities here: a little reverb on the input, using an
 input for a special sidechaining key? Easy! You can monitor what you play just with 
 Luppp and adjust the recorded volume to fit with the other tracks.
 
@@ -188,7 +189,7 @@ Master Section
 .. image:: img/luppp/luppp_master_section.png
    :align: right
 
-Lets take a look at the last part of the GUI: the master section. The function of the most elements
+Let’s take a look at the last part of the GUI: the master section. The function of the most elements
 are quite obvious, so i will only explain them in short:
 
 * the green, yellow, orange and red square show the beat (from bottom to top)
@@ -196,7 +197,7 @@ are quite obvious, so i will only explain them in short:
 * with the tap button you can adjust the tempo by clicking the beat
 * the metro button activates a metronom on the headphones_out of Luppp (note that you can choose between a selection of different volume levels by right-clicking on the "metro" button)
 * the knob with the number sets the tempo
-* the return knob adjusts the volume of the returned audio (eg reverb)
+* the return knob adjusts the volume of the returned audio (e. g. reverb)
 * the fader adjusts the master volume
 
 Configuration

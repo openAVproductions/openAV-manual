@@ -200,22 +200,23 @@ Verwendung eines Eingangssignals für einen speziellen Sidechaining-Key? Kein
 Problem! Direkt mit Luppp kannst du hören was du spielst und die
 Aufnahmelautstärke an die Lautstärke der anderen Tracks anpassen.
 
-Master Section
-==============
+Masterbereich
+=============
 
 .. image:: img/luppp/luppp_master_section.png
    :align: right
 
-Lets take a look at the last part of the GUI: the master section. The function of the most elements
-are quite obvious, so i will only explain them in short:
+Lasst uns einen Blick auf den letzten Bereich der Oberfläche werfen: den
+Masterbereich. Die Funktion der meisten Elemente ist ziemlich offensichtlich,
+es folgt daher nur eine kurze Erklärung:
 
-* the green, yellow, orange and red square show the beat (from bottom to top)
-* the Stop/Play button stops or restarts the transport
-* with the tap button you can adjust the tempo by clicking the beat
-* the metro button activates a metronom on the headphones_out of Luppp (note that you can choose between a selection of different volume levels by right-clicking on the "metro" button)
-* the knob with the number sets the tempo
-* the return knob adjusts the volume of the returned audio (eg reverb)
-* the fader adjusts the master volume
+* das grüne, gelbe, orangefarbene und rote Quadrat zeigen den Takt an (von unten nach oben)
+* die Stop/Play-Schaltfläche stoppt oder started den Transport
+* mit der „Tap“-Schaltfläche kannst du das Tempo durch Klicken des Taktes einstellen
+* die „Metro“-Schaltfläche aktiviert das Metronom, das über die „headphones_out“-Anschlüsse von Luppp ausgegeben wird (du kannst zwischen verschiedenen Lautstärkeleveln durch Rechtsklick auf die Schaltfläche wählen)
+* der Regler mit der Nummer legt das Tempo fest
+* der „Return“-Regler passt die Lautstärke des zurückgegebenen Audiosignals an (z. B. Hall)
+* der Fader regelt die Lautstärke des Masterkanals
 
 Konfiguration
 =============

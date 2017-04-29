@@ -3,22 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-OpenAV Manual
+Manuel OpenAV
 =================
 
-This guide will introduce the reader to the OpenAV suite of software.
-If you are a musician, artist or coder - all audiences are catered for.
+Ce guide présentera au lecteur l'ensemble des logiciels OpenAV.
+Si vous êtes un musicien, un artiste, ou un codeur - toutes les audiences y trouveront leur compte.
 
-.. note:: This manual is still a work-in-progress. If you want to help,
-	please `contact OpenAV`_!
+.. note:: Ce manuel est en permanence un travail en cours. Si vous voulez aider,
+  veuillez `contacter OpenAV`_ !
 
-This manual introduces each of the OpenAV projects in a seperate chapter.
-After each project has been introduced individually, there are tutorials on
-how to combine them into a coherent whole.
+Ce manuel présente chacun des projets OpenAV dans un chapitre séparé.
+Eprès que chacun des projets ai été présenté individuellement, il y a des tutoriels sur
+les façons de les combiner pour les présenter en un tout cohérent.
 
-.. _contact OpenAV: http://openavproductions.com/contact/
+.. _contacter OpenAV : http://openavproductions.com/contact/
 
-Select one of the headings to get started!
+Sélectionnez un des titres pour démarrer !
 
 .. toctree::
    :maxdepth: 1

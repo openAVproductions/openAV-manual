@@ -39,7 +39,7 @@ to have loaded. Fabla will load the file from disk, and clicking the pad
 will now result in the sample being played back. The waveform display at
 the top will show the waveform of the sample that was just played.
 
-.. image:: img/fabla/adsr_select.png
+.. image:: img/fabla/adsr_select.gif
    :align: right
    :scale: 60 %
 

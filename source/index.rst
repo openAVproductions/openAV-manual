@@ -24,9 +24,9 @@ Select one of the headings to get started!
    :maxdepth: 1
 
    beginner 
-   artyfx
+   fr-artyfx
    fabla 
-   luppp
+   fr-luppp
    sorcer
 
 .. ignore this

@@ -166,34 +166,39 @@ funktioniert, schaue dir diese Videos an:
 * Erklärung: https://www.youtube.com/watch?v=-AwtMUeBc9w
 * Showcase: https://www.youtube.com/watch?v=bPJQs6w2XQc
 
-Input Section
-=============
+Eingabebereich
+==============
 
-At the beginning of this tutorial we connected a audio source to Luppps master_in. 
-You can input several different sources, or any output of a mixer or what ever you can 
-imagine! In the top right corner of the GUI you can see the Luppp Input Section.
+Am Anfang dieser Anleitung haben wir eine Audioquelle mit dem „master_in“-Kanal
+von Luppp verbunden. Du kannst verschiedene andere Quelle anschließen, jede
+Ausgabe eines Mixers oder was auch immer du dir vorstellen kannst! In der Ecke
+ganz oben rechts der Oberfläche siehst du den Eingabebereich von Luppp.
 
 .. Tip ::
-	Luppp only has a mono input. If you want to connect a stereo source like a synthesizer, 
-	there are severel possibilities. In the most cases it's enough to connect just one side since 
-	there are equal or similar. If you need both sides, consider a mixer to mix them together.
-	But there might be some trouble if you simply connect both to the input port.
+    Luppp hat nur einen Monoeingang. Wenn du eine Stereoquelle wie einen
+    Synthesizer anschließen willst, gibt es mehrere Möglichkeiten. In den
+    meisten Fällen reicht es aus, nur einen Kanal zu verbinden, da beide Kanäle
+    gleich sind. Wenn du tatsächlich beide Kanäle brauchst, ziehe in betracht,
+    sie mit einem Mixer zu mischen. Einfach beide Kanäle an den selben Ausgang
+    anzuschließen, könnte zu Problemen führen.
 
-Here you have a meter, and a fader to adjust the volume of the input. The knobs below
-do the following:
+Hier gibt es eine Pegelanzeige und einen Fader zur Anpassung der Lautstärke des
+Eingangssignals. Die Regler bewirken folgendes:
 
 .. image:: img/luppp/luppp_inputsection.png
    :align: left
 
-* Snd-Button activates the Send (Knob above sets the amount, eg Reverb)
-* Key-Button sets the input as Key-Signal for Sidechaining 
-* Knob above the Key-Button how much of the input goes to the Sidechain-Signal
-* Mix-Button activates the routing of the input to the master outs of Luppp
-* Knob above the Mix-Button sets amount of the input on the master outs.
+* „Snd“-Schaltfläche aktiviert die „Send“-Funktion
+* Der Regler darüber regelt die Stärke, z. B. des Halls
+* „Key“-Schaltfläche setzt das Eingangssignal als „Key“-Signal für das Sidechaining
+* Der Regler darüber regelt welcher Anteil als Sidechain-Signal verwendet wird
+* „Mix“-Schaltfläche aktiviert das Weiterleiten des Eingangssignals zum Masterausgang von Luppp
+* Der Regler darüber regelt welcher Anteil zum Masterausgang weitergegeben wird.
 
-So you have great possibilities here: a little reverb on the input, using a 
-input for a special sidechaining key? Easy! You can monitor what you play just with 
-Luppp and adjust the recorded volume to fit with the other tracks.
+Du hast also großartige Möglichkeiten: ein bisschen Hall für den Eingang,
+Verwendung eines Eingangssignals für einen speziellen Sidechaining-Key? Kein
+Problem! Direkt mit Luppp kannst du hören was du spielst und die
+Aufnahmelautstärke an die Lautstärke der anderen Tracks anpassen.
 
 Master Section
 ==============

@@ -56,7 +56,7 @@ Pré-réglages
 
 Fabla supporte les pré-réglages à travers l'extension "LV2 State", qui est supporté par
 la plupart des hôtes LV2. Si vous avez un pré-réglage (avec des échantillons partageables
-et libres de droit) et que vous voudriez les contribuez à OpenAV, veuillez `entrer en contact`_!
+et libres de droit) et que vous voudriez les contribuez à OpenAV, veuillez `prendre contact`_!
 
 Actuellement, Fabla fourni quatre pré-réglages :
  * fablaHardElectro
@@ -72,7 +72,7 @@ beats électroniques ainsi que l'échantillonnage de contenu existant et l'arran
 en des nouveaux morceaux.
 Si vous appréciez Fabla, que vous êtes un geek et que vous êtes intéressé par Fabla2, il est
 possible de compiler le code source de Fabla2 et de le tester vous-même ! Pour toute question,
-veuillez `entrer en contact`_ avec OpenAV et nous essaierones de vous aider autant qu'on le peut !
+veuillez `contacter`_ OpenAV et nous essaierons de vous aider autant qu'on le peut !
 
 .. _get in contact: http://openavproductions.com/contact
 

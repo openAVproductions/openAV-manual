@@ -27,7 +27,7 @@ use by musicians yet.
 For creating electronic drums or heavily sampled music genres like
 hip-hop, reggae and dnb, Fabla's features are enough to create music. If
 you want to simulate acoustic drums, DrumGizmo is the plugin to use, or
-Hyrdogen for a stand-alone app.
+Hydrogen for a stand-alone app.
 
 Pads
 ----
@@ -47,7 +47,7 @@ ADSR
 ----
 
 The ADSR available in the top right of the GUI allows shaping of each pads
-envelope. When a pad is clicked on, the ADSR shows the currently highliged
+envelope. When a pad is clicked on, the ADSR shows the currently highligthed
 pad in orange (see GIF animation to right). As new pads are clicked, the
 ADSR updates to control that sample.
 

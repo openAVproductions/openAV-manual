@@ -26,7 +26,7 @@ LV2 Plugin
 LV2 Plugins are extensions to any audio application. Each plugin contains
 functionality or features, which is made available when a host-program
 loads the plugin. LV2 is an open-source plugin API, which means it can be
-freely used by everybody - no contracts or prioprietary copyrights here!
+freely used by everybody - no contracts or proprietary copyrights here!
 
 OpenAV builds LV2 plugins, as the LV2 plugin spec is very powerful,
 flexible and extensible. This allows complex plugins like samples and

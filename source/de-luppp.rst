@@ -10,8 +10,8 @@ Fokus liegt auf Echtzeitverarbeitung und intuitivem Workflow. Durch
 umfangreiche MIDI-Steuerung wird der Einsatz von Loops zum Kinderspiel! In den
 nächsten Abschnitten wird beschrieben, wie Luppp zusammen mit JACK für
 Audioein- und -ausgabe eingerichtet wird. Außerdem werden die Konzepte von
-Szenen und Clips vorgestellt, sodass die Kreativität für Live-Auftritte optimal
-genutzt werden kann.
+Szenen und Clips vorgestellt, sodass du deiner Kreativität freien Lauf lassen
+kannst.
 
 Luppp und JACK
 ==============
@@ -20,7 +20,7 @@ Wenn dir Luppp und Jack komplett neu sind, schaue dir dieses Beispielvideo an,
 das eine typische Looping-Session mit Luppp zeigt:
 https://www.youtube.com/watch?v=R6WiWDDKRCQ
 
-Bevor wir Loops aufnehmen können, müssen wir eine Audioquelle mit Luppps
+Bevor du Loops aufnehmen kannst, müssen wir eine Audioquelle mit Luppps
 “master_in”-Anschluss verbinden. Außerdem müssen “master_right” und
 “master_left” mit den Systemanschlüssen (Soundkarte oder Audiointerface)
 verbunden werden. Der folgende Screenshot zeigt die Verbindungen:
@@ -28,15 +28,15 @@ verbunden werden. Der folgende Screenshot zeigt die Verbindungen:
 .. image:: img/luppp/luppp_jack_connections.png
    :align: center
 
-Als nächstes schauen wir uns die Oberfläche von Luppp an. Diese mag auf den
-ersten Blick komplex wirken, ist aber wirklich einfach, wenn man die einzelnen
-Bereiche ersteinmal versteht.
+Schaue dir nun die Oberfläche von Luppp an. Diese mag auf den ersten Blick
+komplex wirken, ist aber wirklich einfach, wenn man die einzelnen Bereiche
+ersteinmal versteht.
 
 .. image:: img/luppp/luppp_interface.png
    :align: left
 
 Du siehst acht Tracks mit jeweils zehn Clips. Um zu testen, ob dein Audiosetup
-funktioniert, spiele deine Audioquelle ab und du solltest die Amplitude auf der
+funktioniert, spiele deine Audioquelle ab und du solltest den Ausschlag auf der
 Anzeige ganz oben rechts sehen. Wenn das klappt, kannst du loslegen!
 
 Nun klicke auf einen Clip, um die Aufnahme zu starten und klicke erneut, um das
@@ -52,7 +52,7 @@ Szenen
 ======
 
 Ein sehr wichtiges Konzezt von Luppp sind die Szenen. Auf jedem Track kann nur
-ein Clip zur gleichen Zeit agbespielt werden. Im Masterbereich von Luppp
+ein Clip zur gleichen Zeit abgespielt werden. Im Masterbereich von Luppp
 befindet sich die Liste der Szenen. Eine Szene kann durch Klicken auf den Namen
 gestartet werden, wodurch alle Clips in dieser Reihe gleichzeitig gestartet
 werden.
@@ -100,7 +100,7 @@ Bevor wir uns der Welt der Bearbeitung in Lupp zuwenden, schauen wir uns eine
 einfache, aber wirkungsvolle Funktion an. Es wurde in Version 1.1.1 eingeführt:
 das Panning. Der Regler über dem Fader jeden Tracks kann das Signal zum
 Masterkanal splitten. Du hast also die Möglichkeit, jedem Kanal einen Platz im
-Mix zu geben. Das ist sehr simple, gehen wir also weiter …
+Mix zu geben. Das ist sehr simpel, gehen wir also weiter …
 
 FX-Bereich
 ==========
@@ -109,16 +109,16 @@ Die Regler direkt unter dem Clip-Bereich sind der Effektbereich. In dem
 JACK-Verbindungsmanager deiner Wahl werden dir die „Send_track_X“- und
 „Return_track_X“-Anschlüsse aufgefallen sein. Die Verbindung des
 „send“-Anschlusses mit dem Eingang eines Plugins und des Ausganges mit dem
-„return“-Anschluss von Luppp leitet das Audiosignal durch dieses Plugin. Um die
-Bearbeitung zu aktivieren, klicke auf die gelbe FX-Schaltfläche. Mit dem
-Drehregler kannst du die Lautstärke des Effekts regeln. Diese Funktion gibt dir
-endlose möglichkeiten. Du kannst beliebig viele Effekte hinzufügen, in der
-Reihenfolge deiner Wahl. Sei einfach kreativ!
+„return“-Anschluss von Luppp leitet das Audiosignal durch dieses Plugin. Um den
+Effekt zu nutzen, klicke auf die gelbe FX-Schaltfläche. Mit dem Drehregler
+kannst du die Lautstärke des Effekts regeln. Diese Funktion gibt dir endlose
+möglichkeiten. Du kannst beliebig viele Effekte hinzufügen, in der Reihenfolge
+deiner Wahl. Sei einfach kreativ!
 
 Halleinbindung
 ==============
 
-Diese Funktion gibt dir die großartige Möglichkeit, leicht etwas Hall zu einen
+Diese Funktion gibt dir die großartige Möglichkeit, leicht etwas Hall zu einem
 Track hinzuzufügen. Bevor wir dies ausprobieren können, müssen wir Luppps
 „send_out“-Anschluss mit einem Halleffekt verbinden (z. B. :ref:`roomy`) und
 die Ausgänge des Halls an die „master_return”-Anschlüsse von Luppp. Ist das
@@ -266,7 +266,7 @@ Standard-Controller
 
 Mit der Option ``defaultControllers`` können Controller definiert werden, die
 beim Programmstart automatisch geladen werden. Mehrere Controller können mit
-Komma getrennt ngegeben werden::
+Komma getrennt angegeben werden::
 
     "defaultControllers": ["akai_apc.ctlr", "launchpad_s.ctlr"]
 

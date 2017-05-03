@@ -14,7 +14,7 @@ Signal Routing
 ==============
 
 Routing audio is the action of transferring audio between two places.
-Traditionally this was done between two seperate pieces of hardware, and a
+Traditionally this was done between two separate pieces of hardware, and a
 patch cable was used. Today software contains the same concepts, that audio
 can be sent from one location and received at another.  Common use cases
 for routing audio are to apply reverb to multiple instruments at once, or

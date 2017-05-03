@@ -69,7 +69,7 @@ Ducka
 Ducka is a side- chain envelope plugin: it is very useful for creating
 "pumping" basslines as often found in minimal house music. The plugin works
 by analysing the volume of a sidechain input, and changing the volume of a
-seperate stereo track, based on the amplitude of the sidechain input.
+separate stereo track, based on the amplitude of the sidechain input.
 
 * Threshold sets the level that the input audio must reach before the
   stereo track gets reduced.

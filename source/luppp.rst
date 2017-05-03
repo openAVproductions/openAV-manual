@@ -245,7 +245,7 @@ Default Controllers
 
 The ``defaultControllers`` option allows to specify which controllers are
 loading automatically at startup. Note that multiple controllers can be added,
-listed as seperate strings with a comma inbetween::
+listed as separate strings with a comma inbetween::
 
     "defaultControllers": ["akai_apc.ctlr", "launchpad_s.ctlr"]
 

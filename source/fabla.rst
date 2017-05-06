@@ -47,7 +47,7 @@ ADSR
 ----
 
 The ADSR available in the top right of the GUI allows shaping of each pads
-envelope. When a pad is clicked on, the ADSR shows the currently highligthed
+envelope. When a pad is clicked on, the ADSR shows the currently highlighted
 pad in orange (see GIF animation to right). As new pads are clicked, the
 ADSR updates to control that sample.
 

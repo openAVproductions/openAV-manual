@@ -44,7 +44,7 @@ continuous tone which has a specific timbre due to the harmonics in the
 recorded audio.
 
 Sorcer has four wavetable recordings; and uses two per wavetable
-osciallator. The recordings are carefully chosen to have similar sound
+oscillator. The recordings are carefully chosen to have similar sound
 characteristics, that when faded between cause a nice spectral transition.
 
 

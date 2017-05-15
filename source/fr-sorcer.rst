@@ -26,17 +26,19 @@ ____
 .. image:: img/sorcer/sorcer_osc.png
    :align: right
 
-Oscillators
-===========
+Oscillateurs
+============
 
-Oscillators are the sound generators in most synths - Sorcer is no
-different. Sorcer has 3 oscillators, two "Wave" oscillators that use
-wavetables to generate audio, and one "Sub-Bass" sine-wave oscillator.
+Les oscillateurs sont les générateurs de son de la plupart des synthétiseurs -
+Sorcer n'est pas différent. Sorcer possède 3 oscillateurs, deux osccillateurs
+"Wave" qui utilisent des tables d'onde pour générer l'audio, et un oscillateur
+à onde sinusodale "Sub-Bass".
 
-Wave oscillators allow fading between two timbres by moving the X/Y pad
-in a horizontal direction. Vertically moving changes the volume of the
-oscillator.  The sub-bass oscillator only has a volume - it always plays a
-sine-wave, as this is the lowest frequency possible.
+Les oscillateurs "Wave" permettent un affaiblissement entre deux timbres en
+déplaçant le pad X/Y sur la direction horizontale. Le déplacer verticallement
+modifie le volume de l'oscillateur. L'oscillateur sub-bass possède seulement
+un volume - il joue toujours une onde sinusoïdale, puisque c'est la fréquence
+la plus basse possible.
 
 Wavetables
 ----------

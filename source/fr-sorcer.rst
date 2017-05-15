@@ -40,17 +40,17 @@ modifie le volume de l'oscillateur. L'oscillateur sub-bass possède seulement
 un volume - il joue toujours une onde sinusoïdale, puisque c'est la fréquence
 la plus basse possible.
 
-Wavetables
-----------
-Wavetables are short recordings of a single-cycle off sound. This allows
-the synth to repeatedly play the same cycle of audio, and create a
-continuous tone which has a specific timbre due to the harmonics in the
-recorded audio.
+Tables d'onde
+-------------
+Les tables d'ondes sont des enregistrements courts d'un son de cycle-unique.
+Ceci permet au synthétiseur de jouer de manière répétée le même cycle d'audio,
+et crée une tonalité continue possèdant un timbre spécifique dû aux harmoniques
+dans l'audio enregistré.
 
-Sorcer has four wavetable recordings; and uses two per wavetable
-osciallator. The recordings are carefully chosen to have similar sound
-characteristics, that when faded between cause a nice spectral transition.
-
+Sorcer possède quatre enregistrement de table d'onde; et en utilise deux par
+osciallateur de table d'onde. Les enregistrements sont choisis avec soin pour
+avoir des caractéristiques de son similaires qui lorsqu'ils sont affaiblis,
+provoque alors une belle transition spectrale.
 
 Aliasing and Artifacts
 ----------------------

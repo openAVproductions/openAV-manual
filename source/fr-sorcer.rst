@@ -52,27 +52,29 @@ osciallateur de table d'onde. Les enregistrements sont choisis avec soin pour
 avoir des caractéristiques de son similaires qui lorsqu'ils sont affaiblis,
 provoque alors une belle transition spectrale.
 
-Aliasing and Artifacts
-----------------------
-Note that wavetable synthesis generally has some side effects. Playing a
-sample back at a different rate (altering the speed) creates some
-artifacts. With playback rates close to :abbr:`unity(The playback rate of 1,
-also the original playback rate)` these artifacts can be audible unless
-some :abbr:`interpolation(smoothing of audio data based on the
-playback rate)` is done.
+Crénelage (Aliasing) et artefacts
+---------------------------------
+Veuillez noter que généralement, la synthèse par table d'onde engendre des
+effets de bords. Jouer un échantillon à un taux différent (altérant la vitesse)
+crée des artefacts. Avec des taux de lecture proches de :abbr:`unity(The playback rate of 1,
+also the original playback rate)` ces artefacts peuvent être audibles à moins que de
+l':abbr:`interpolation(smoothing of audio data based on the
+playback rate)` soit réalisée.
 
-Aliasing can be avoided by interpolation, or careful pre-processing of
-the recorded waveform. As pitch goes up harmonics can be removed from the
-signal, which avoids aliasing. In its current state, Sorcer does not do
-either of interpolation of the waveform or pre-processing of the waveform.
+Le crénelage peut être évité par de l'interpolation, ou précautionneusement
+en pré-traitant la forme d'onde enregistrée. Plus la hauteur augmente, plus
+les harmoniques peuvent petre retirés du signal, ce qui évite le crénelage.
+Dans son état actuel, Sorcer ne fait ni d'interpolation de la forme d'onde,
+ni du pré-traitement de la forme d'onde.
 
-Why not just fix the Aliasing?
-------------------------------
-Although possible to add, it would change the sound of Sorcer - and change
-any existing songs that have written. For that reason, Sorcer will not see
-any improvements in its playback engine - but fear not - OpenAV has plans
-to release new synths in the future with alias-avoidance and more capable
-modulation than Sorcer ever had!
+Pourquoi ne pas simplement corriger le crénelage ?
+--------------------------------------------------
+Bien que ce soit possible à ajouter, ceci modifierait la sonorité de Sorcer,
+et modifierait tout morceau ayant été écrit. Pour cette raison, Sorcer ne
+verra aucune amélioration de son moteur de lecture mais, n'ayez crainte,
+OpenAV a des plans pour sortir des nouveaux synthétiseurs dans le futur, avec
+de l'annulation de crénelage, et des modulations avec encore plus de possibilité
+que Sorcer n'a jamais eu !
 
 ____
 

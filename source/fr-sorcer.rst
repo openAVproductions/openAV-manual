@@ -84,7 +84,7 @@ Enveloppes et modulation
 ========================
 Sorcer possède également des fonctionnalités d'enveloppe et de modulation,
 un LFO peut moduler le filtre et les tables d'onde, alors qu'un ADSR permet
-le contrôle le volume par note. Regardons ces parties en détails.
+le contrôle du volume par note. Regardons ces parties en détails.
 
 LFO
 ---
@@ -94,14 +94,14 @@ La section LFO possède 4 contrôles :
  * W2
  * Speed
  * Amp
-La vitesse et l'amplitude du LFO lui-même est contrôlé par les boutons Speed
+La vitesse et l'amplitude du LFO lui-même sont contrôlés par les boutons Speed
 et Amp. Les boutons W1 et W2 contrôlent la *quantité* du signal LFO qui
 doit être utilisée pour moduler les positions horizontales Wave1 ou Wave2.
 Ceci est très utile pour créer des sons de dubstep-bass bougeant constamment !
 
 Remove
 ------
-La section "remove" contient un filtre passe-bas avec un bouton de coupure cutoff,
+La section "remove" contient un filtre passe-bas avec un bouton de coupure,
 et un bouton de modulation. Le bouton de coupure (NdT : "cutoff") paramètre une
 valeur statique pour le filtre passe-bas - utile pour étouffer le son basse et
 laisser de la place dans le mix pour d'autres instruments. Pour ajouter davantage

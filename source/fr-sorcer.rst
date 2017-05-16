@@ -80,32 +80,33 @@ ____
    :align: right
 
 
-Envelopes and Modulation
+Enveloppes et modulation
 ========================
-Sorcer also has some modulation and enveloping features, an LFO can
-modulate the filter and wavetables, while the ADSR allows controlling the
-volume per-note. Lets look at these parts in a little more detail.
+Sorcer possède également des fonctionnalités d'enveloppe et de modulation,
+un LFO peut moduler le filtre et les tables d'onde, alors qu'un ADSR permet
+le contrôle le volume par note. Regardons ces parties en détails.
 
 LFO
 ---
 
-The LFO section has 4 controls:
+La section LFO possède 4 contrôles :
  * W1
  * W2
  * Speed
  * Amp
-The speed and amplitude of the LFO itself is controlled by the Speed and
-Amp dials. The W1 and W2 dials control the *amount* of the LFO signal that
-should be used to modulate the Wave1 or Wave2 horizontal position. This is
-very useful for creating constantly morphing dubstep-bass sounds!
+La vitesse et l'amplitude du LFO lui-même est contrôlé par les boutons Speed
+et Amp. Les boutons W1 et W2 contrôlent la *quantité* du signal LFO qui
+doit être utilisée pour moduler les positions horizontales Wave1 ou Wave2.
+Ceci est très utile pour créer des sons de dubstep-bass bougeant constamment !
 
 Remove
 ------
-The "remove" section contains a lowpass filter with a cutoff dial,
-and a modulation dial. The cutoff dial sets a static value to the lowpass
-filter - useful to muffle the bass sound and leave some space in the mix
-for other instruments. To add more energy to the mix, turn up the
-Modulation dial to change the Cutoff by the LFO output.
+La section "remove" contient un filtre passe-bas avec un bouton de coupure cutoff,
+et un bouton de modulation. Le bouton de coupure (NdT : "cutoff") paramètre une
+valeur statique pour le filtre passe-bas - utile pour étouffer le son basse et
+laisser de la place dans le mix pour d'autres instruments. Pour ajouter davantage
+d'énergie au mix, augmenter le bouton de modulation pour modifier le Cutoff par la
+sortie du LFO.
 
 ____
 

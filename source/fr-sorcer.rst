@@ -115,20 +115,21 @@ ____
 
 ADSR
 ----
-The ADSR provides the final touches on the sound - the defaults provide a
-wall of sound, but add a fade in and some decay to build pad-like sounds..
+L'ADSR fourni les touches finales sur le son - les valeurs par défaut fournissent
+un mur de son mais, ajoutez un fondu à l'ouverture et un peu de déclin, et vous
+aurez construit des sons ressemblant à un pad.
 
 Master
 ------
-The master section provides a compressor with Gain, Threshold, Attack and
-Release. A master-volume slider allows taming Sorcer to keep it in its
-place in the mix.
+La section master fournie un compresseur avec gain, seuil (NdT : "threshold"), attaque
+et relâche (NdT : release). Un chariot de volume-master permet d'apprivoiser Sorcer pour
+le garder en place dans le mix.
 
 Conclusion
 ==========
 
-That was a whirlwind fast tour of the Sorcer synth - although its limited
-in its scope, it is a good synth to start using for basslines, and
-understand the way routing inside a synthesizer works. Of course, for a
-heavy dubstep modulated bassline, Sorcer is the easiest way to get that
-super heavy sub-bass too!
+Ceci était un tour rapide en coup e vent du synthétiseur Sorcer qui, bien qu'étant limité
+dans ses objectifs, est un bon synthétiseur pour démarrer son utilisation pour créer des
+lignes de basse, et comprendre le fonctionnement du routage à l'intérieur d'un synthétiseur.
+Bien sûr, pour une ligne de basse modulée de gros dubstep, Sorcer est le moyen le plus simple
+d'obtenir une super grosse sub-basse aussi !

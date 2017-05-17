@@ -1,7 +1,7 @@
 
 .. image:: img/ctlra/code.jpg
 	:align: right
-	:scale: 12 %
+	:scale: 50 %
 
 
 ########

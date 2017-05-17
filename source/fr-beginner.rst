@@ -129,10 +129,8 @@ Les greffons LV2 sont identifiés par des URI, voir la section
 :ref:`lv2_plugin` afin d'obtenir la liste des greffons installés.
 
 * Démarrez JACK. Si vous n'avez jamais démarré JACK auparavant, voir la section :ref:`starting_jack`.
-* Lancez Roomy dans JALV en utilisant la commande suivante :
-``jalv.gtk http://www.openavproductions.com/artyfx#roomy``
-* Utilisez :ref:`qjackctl` afin de connecter le ``System:capture`` à
-``Roomy:in``, et ``Roomy:out`` à ``System:playback``.
+* Lancez Roomy dans JALV en utilisant la commande suivante : ``jalv.gtk http://www.openavproductions.com/artyfx#roomy``
+* Utilisez :ref:`qjackctl` afin de connecter le ``System:capture`` à ``Roomy:in``, et ``Roomy:out`` à ``System:playback``.
 
 Et voilà ! Tout son capturé par l'interface-son matérielle passera à travers 
 l'effet :ref:`Roomy`, puis sera joué par les haut-parleurs.

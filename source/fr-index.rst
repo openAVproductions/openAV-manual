@@ -25,7 +25,7 @@ Sélectionnez un des titres pour démarrer !
 
    fr-beginner
    fr-artyfx
-   fabla 
+   fr-fabla
    fr-luppp
    fr-sorcer
 

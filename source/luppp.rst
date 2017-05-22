@@ -100,8 +100,8 @@ FX Section
 
 The first controls below the clip section are the effect section. In your 
 JACK connection manager of your choice you will notice the Send_track_X and
-Return_track_X ports. Connecting the send to the input of a plugin and the 
-output back to the returns of Luppp will send the audio through this plugin. 
+Return_track_X ports. Connecting the send to the input of a JACK client and the
+output back to the returns of Luppp will send the audio through this other JACK client.
 To enable the processing, click on the yellow FX Button. With the knob you can
 adjust the volume of the effect.
 This feature gives you endless possibilities. You could add as many effects as
@@ -142,12 +142,12 @@ control the processing of another signal. This processing could be a
 compressor or an enveloper (e. g. :ref:`ducka`). So, how to use it? At first
 we again need to do some connections. Luppps sidechain_key needs to be
 connected to a sidechain input and Luppps sidechain_signal needs to be
-connected to the regular audio inputs of the :ref:`ducka` plugin.
-Send the outputs of the plugins to the master returns.
+connected to the regular audio inputs of the :ref:`ducka` JACK client.
+Send the outputs of the Ducka JACK client to the master returns.
 
 Back to Luppp. On one track you need to enable the Key-Button. This way the
 output of the track is the trigger for the sidechain effect. Now you can
-send each track with the knob above the Key-Button to the plugin. If you
+send each track with the knob above the Key-Button to JACK. If you
 want to see how it's works, watch these videos: 
 
 * Explanation: https://www.youtube.com/watch?v=-AwtMUeBc9w

@@ -130,7 +130,7 @@ le garder en place dans le mix.
 Conclusion
 ==========
 
-Ceci était un tour rapide en coup e vent du synthétiseur Sorcer qui, bien qu'étant limité
+Ceci était un tour rapide en coup de vent du synthétiseur Sorcer qui, bien qu'étant limité
 dans ses objectifs, est un bon synthétiseur pour démarrer son utilisation pour créer des
 lignes de basse, et comprendre le fonctionnement du routage à l'intérieur d'un synthétiseur.
 Bien sûr, pour une ligne de basse modulée de gros dubstep, Sorcer est le moyen le plus simple

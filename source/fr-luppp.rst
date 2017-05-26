@@ -147,7 +147,7 @@ Configuration
 
 Luppp fournit quelques fonctionnalités de configuration dans un fichier se trouvant dans le répertoire de configuration de l'utilisateur. Il permet de mettre des contrôleurs par défaut en les ajoutant à la liste des contrôleurs par défaut, comme indiqué ci dessous. Notez bien que plusieurs contrôleurs peuvent être ajoutés, listés comme des shaines séparées avec une virgule intercalée entre eux.
 
-Le fichier à éditer es:
+Le fichier à éditer est:
 ``~/.config/openAV/luppp/luppp.prfs``
 
 notamment, mettez à jour cette ligne qui contient  le nom du fichier de votre contrôleur par défaut :

@@ -69,6 +69,18 @@ Toutes les pistes de Luppp possèdent des contrôleurs faisant des choses incroy
 
 -----
 
+
+Panoramisation
+==============
+
+Avant de rentrer dans le monde du traitement dans Luppp, regardons une fonctionnalité plutôt basique mais puissante. Elle est arrivée avec la version 1.1.1 : la panoramisation. Le bouton au dessus de chaque piste peut diviser le signal en deux canaux maître si vous le souhaitez. Vous avez ainsi la possibilité de placer chaque canal dans le mixage général. Ceci est plutôt simple, donc on continue…
+
+Section effets spéciaux
+=======================
+
+Les premiers contrôle en dessous de la section de clip sont la section d'effet. Dans le gestionaire de connexion JACK de votre choix, vous verrez des ports Send_track_X et Return_track_X. En connectant le send à l'entrée d'un client JACK et la sortie dans les retours de Luppp enverra l'audio à travers cet autre client JACK. Pour activer le traitement, cliquez sur le bouton FX jaune. Avec le bouton, vous pouvez ajuster le volume de l'effet. Cette fonctionnalité vous offre des possibilités infines. Vous pourriez avoir autant d'effets que vous le voulez dans n'importe quel ordre. Soyez créatifs !
+
+
 Envoi de réverb'
 ================
 
@@ -95,11 +107,11 @@ Chaînage latéral
 Il est très facile de pratiquer un chaînage latéral (NdT : "sidechaining" en anglais) en utilisant Luppp, 
 par exemple pour créer des lignes de basse house. Le concept est plutôt simple : vous utilisez un signal audio pour contrôler le traitement d'un autre signal. 
 Ce traitement peut être un compresseur ou un enveloppeur (par exemple : ref:ducka). Alors, comment l'utiliser ?
-Premièrement, nous devons ici aussi faire des connexions. Les sidechain_key de Luppp doivent être connectés à une entrée de chaînage latéral et les sidechain_signal de Luppp doivent être connectés aux entrées audio régulières du greffon Ducka. 
-Envoyez les sorties des greffons aux sorties master.
+Premièrement, nous devons ici aussi faire des connexions. Les sidechain_key de Luppp doivent être connectés à une entrée de chaînage latéral et les sidechain_signal de Luppp doivent être connectés aux entrées audio régulières du client JACK Ducka. 
+Envoyez les sorties du client JACK Ducka aux sorties master.
 
 Retour à Luppp. Sur une piste, vous devez activer le bouton "Key". Ce faisant, la sortie de la piste est le déclencheur de l'effet de chaînage latéral. Maintenant, vous pouvez envoyer chaque piste avec le bouton rotatif au dessus du bouton "Key" 
-vers le greffon. Si vous souhaitez voir comment ceci fonctionne, regardez ces vidéos (en anglais) : 
+vers JACK. Si vous souhaitez voir comment ceci fonctionne, regardez ces vidéos (en anglais) : 
 
 * Explication: https://www.youtube.com/watch?v=-AwtMUeBc9w
 * Démonstration: https://www.youtube.com/watch?v=bPJQs6w2XQc

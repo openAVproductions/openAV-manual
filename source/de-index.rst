@@ -17,7 +17,7 @@ This manual introduces each of the OpenAV projects in a separate chapter.
 After each project has been introduced individually, there are tutorials on
 how to combine them into a coherent whole.
 
-.. _contact OpenAV: http://openavproductions.com/contact/
+.. _contact OpenAV: http://openavproductions.com/about/
 
 Select one of the headings to get started!
 

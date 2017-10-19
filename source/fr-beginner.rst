@@ -13,7 +13,7 @@ vous voulez.
 Les logiciels OpenAV *vous* ciblent (vous, le musicien jouant en live)
 et si vous avez des retours à faire, n'hésitez pas `à nous contacter`_ (lien en anglais) !
 
-.. _à nous contacter: http://openavproductions.com/contact/
+.. _à nous contacter: http://openavproductions.com/about/
 
 Cette page présente au débutant la façon d'utiliser les logiciels
 OpenAV, de configurer Jack, de lancer des greffons LV2 avec Jalv, et

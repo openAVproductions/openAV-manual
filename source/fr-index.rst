@@ -16,7 +16,7 @@ Ce manuel présente chacun des projets OpenAV dans un chapitre séparé.
 Après que chacun des projets ait été présenté individuellement, il y a des tutoriels sur
 les façons de les combiner pour les présenter en un tout cohérent.
 
-.. _contacter OpenAV : http://openavproductions.com/contact/
+.. _contacter OpenAV : http://openavproductions.com/about/
 
 Sélectionnez un des titres pour démarrer !
 

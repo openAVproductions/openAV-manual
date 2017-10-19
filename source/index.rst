@@ -6,28 +6,28 @@
 Manuel OpenAV
 =================
 
-Ce guide présentera au lecteur l'ensemble des logiciels OpenAV.
-Si vous êtes un musicien, un artiste, ou un codeur - toutes les audiences y trouveront leur compte.
+Ce guide présentera l'ensemble des logiciels OpenAV au lecteur.
+Que vous soyez un musicien, un artiste, ou un codeur, toutes les audiences y trouveront leur compte.
 
-.. note:: Ce manuel est en permanence un travail en cours. Si vous voulez aider,
+.. note:: Ce manuel est un travail en cours en permanence. Si vous voulez aider,
   veuillez `contacter OpenAV`_ !
 
 Ce manuel présente chacun des projets OpenAV dans un chapitre séparé.
-Eprès que chacun des projets ai été présenté individuellement, il y a des tutoriels sur
-les façons de les combiner pour les présenter en un tout cohérent.
+Après une présentation individuelle de chacun des projets, il y aura des tutoriels sur
+les façons de les combiner afin d'en présenter une utilisation en un tout cohérent.
 
 .. _contacter OpenAV : http://openavproductions.com/contact/
 
-Sélectionnez un des titres pour démarrer !
+Sélectionnez un des liens pour commencer !
 
 .. toctree::
    :maxdepth: 1
 
    fr-beginner
    fr-artyfx
-   fabla 
+   fr-fabla 
    fr-luppp
-   sorcer
+   fr-sorcer
 
 .. ignore this
    fabla2

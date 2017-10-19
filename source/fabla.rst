@@ -73,5 +73,5 @@ If you like Fabla, and you're techie and interested in Fabla2, it is
 possible to compile the Fabla2 source and test it yourself! Any questions,
 do `get in contact`_ OpenAV and we'll try help you as much as we can!
 
-.. _get in contact: http://openavproductions.com/contact
+.. _get in contact: http://openavproductions.com/about/
 

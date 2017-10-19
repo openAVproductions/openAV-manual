@@ -12,7 +12,7 @@ able to adapt that tech to do exactly what you want. OpenAV software
 targets *you* - the live performing musician - and if you have feedback on
 our software please do `get in touch`_!
 
-.. _get in touch: http://openavproductions.com/contact/
+.. _get in touch: http://openavproductions.com/about/
 
 This page will introduces the beginner on how to use OpenAV software,
 how to set up JACK, launch LV2 plugins with Jalv, and answers other common

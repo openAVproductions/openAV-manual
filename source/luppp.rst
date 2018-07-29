@@ -44,7 +44,7 @@ turning the knob with the BPM number (which should be 120 by default).
 
 
 .. image:: img/luppp/luppp_scenes.png
-	:align: right
+   :align: right
 
 Scenes 
 ======
@@ -199,6 +199,18 @@ are quite obvious, so i will only explain them in short:
 * the knob with the number sets the tempo
 * the return knob adjusts the volume of the returned audio (e. g. reverb)
 * the fader adjusts the master volume
+
+Saving and Loading Sessions
+===========================
+
+.. image:: img/luppp/luppp_load.png
+   :align: right
+
+Loading and saving is done by using the "Luppp" titled menu on the
+top left. Clicking the "Luppp" word opens the menu, allowing to control
+the session (New, Load, Save), setup controllers, and quit the program.
+
+-----
 
 Configuration
 =============

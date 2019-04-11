@@ -195,7 +195,7 @@ are quite obvious, so i will only explain them in short:
 * the green, yellow, orange and red square show the beat (from bottom to top)
 * the Stop/Play button stops or restarts the transport
 * with the tap button you can adjust the tempo by clicking the beat
-* right click on tap button allow to enter manually BPM input 
+* right click on tap button allow to input manually BPM input 
 * the metro button activates a metronom on the headphones_out of Luppp (note that you can choose between a selection of different volume levels by right-clicking on the "metro" button)
 * the knob with the number sets the tempo
 * the return knob adjusts the volume of the returned audio (e. g. reverb)

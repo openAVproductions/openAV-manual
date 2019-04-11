@@ -37,7 +37,19 @@ You can see 8 Tracks with each 10 Clips. To check if your setup work
 just play your audio source and you should see the amplitude of the audio
 on the top right meter. If this works, you are ready to go!
 
+Clips
+======
+
 Now click on a Clip to start recording and click again to start looping!
+With right click on a clip, you can:
+* Load Audio loop in the clip
+* Save the clip
+* Select 'Special' then record,play or stop the clip with space bar
+* Choose the number of beats
+* Use the clip as tempo
+* Rename the clip
+* Clear the clip
+
 All actions of Luppp are synced to the Beat, which is indicated by the four
 squares on the bottom right of the window. You can change the tempo by
 turning the knob with the BPM number (which should be 120 by default).

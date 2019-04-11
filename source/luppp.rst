@@ -42,6 +42,7 @@ Clips
 
 Now click on a Clip to start recording and click again to start looping!
 With right click on a clip, you can:
+
 * Load Audio loop in the clip
 * Save the clip
 * Select 'Special' then record,play or stop the clip with space bar

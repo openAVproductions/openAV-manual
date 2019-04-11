@@ -41,7 +41,7 @@ Clips
 ======
 
 Now click on a Clip to start recording and click again to start looping!
-With right click on a clip, you can:
+Right clicking on a clip lets you:
 
 * Load Audio loop in the clip
 * Save the clip
@@ -49,7 +49,7 @@ With right click on a clip, you can:
 * Choose the number of beats
 * Use the clip as tempo
 * Rename the clip
-* Clear the clip
+* Clear the clip (can also be done with MIDI Binding)
 
 All actions of Luppp are synced to the Beat, which is indicated by the four
 squares on the bottom right of the window. You can change the tempo by

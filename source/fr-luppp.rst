@@ -30,8 +30,21 @@ mais qui est vraiment plutôt simple une fois que l'on comprend à quoi sert cha
 Vous pouvez voir 8 pistes contenant 10 clips chacune. Afin de vérifier que votre configuration fonctionne, 
 faites jouer votre source audio et vous devriez voir l'amplitude de l’audio dans le vu-mètre en haut à droite de l’interface. Si cela fonctionne, vous êtes prêt !
 
+Clips 
+======
+
 Maintenant, cliquez sur un clip pour démarrer l’enregistrement puis cliquez une nouvelle fois 
 pour lancer la lecture en boucle ! 
+Un clic droit sur un clip vous propose de :
+
+* Charger une boucle audio dans le clip
+* Sauvegarder le clip
+* Sélectionner 'Spécial' afin d'enregistrer, lire ou arrêter le clip avec la barre d'espace.
+* Choisir le nombre de battements du clip
+* Utiliser le clip comme tempo
+* Renommer le clip
+* Effacer le clip (peut aussi être fait avec MIDI Binding)
+
 Toutes les actions de Luppp sont synchronisées à la pulsation,
 qui est indiqué par les quatre carrés en bas à droite de la fenêtre. 
 Vous pouvez changer le tempo en tournant le bouton dans lequel est indiqué le nombre de BPM 
@@ -149,6 +162,7 @@ Les fonctions de la plupart des éléments sont vraiment évidents, donc je les 
 * les carrés vert, jaune, orange et rouge montrent le battement (de bas en haut) 
 * le bouton "Stop/Play" arrête ou redémarre la lecture 
 * avec le bouton "Tap", vous pouvez ajuster le tempo en cliquant la pulsation 
+* un clic droit sur le bouton TAP permet d'entrer manuellement les données du BPM
 * le bouton "Metro" active le métronome dans les sorties casque (headphones_out) de Luppp (notez que vous pouvez choisir entre une sélection de différents niveaux de volume en cliquant-droit sur le bouton "Metro") 
 * le bouton avec les chiffres indique le tempo 
 * le bouton "Return" ajuste le volume du retour audio (comme la réverb')

@@ -6,7 +6,7 @@ Luppp
    :align: center
 
 Luppp is a music creation tool, intended for live use. The focus is on real
-time processing and a fastintuitive workflow. With extensive MIDI mapping
+time processing with a fast and intuitive workflow. With extensive MIDI mapping
 support, you can get looping just how you like! The next sections will show
 you how to set up Luppp with JACK for audio input and output, and introduce
 the concepts of "Scenes" and "Clips" to let you start arranging your
